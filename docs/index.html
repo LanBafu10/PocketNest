@@ -2914,65 +2914,7 @@ function buildDoorOrWindowDecor(op, wallT, wallH, isSingleFocus, inwardSign) {
     return g;
   }
 
-  if (kind === 'open_passage') return g;
-  if (op.render_leaf === false) return g;
-
-  const doorH = 2.02;
-  const frameT = 0.05;
-  g.add(boxMesh(frameT, doorH, wallT + 0.045, woodFrame, -ow / 2 + frameT / 2, doorH / 2 + 0.04, 0));
-  g.add(boxMesh(frameT, doorH, wallT + 0.045, woodFrame, +ow / 2 - frameT / 2, doorH / 2 + 0.04, 0));
-  g.add(boxMesh(ow + 0.03, frameT, wallT + 0.05, woodFrame, 0, doorH + 0.04, 0));
-
-  if (kind === 'open_arch') {
-    const curtainCol = 0x8ea7b8;
-    const tieCol = 0xe8decb;
-    const cw = Math.min(0.28, ow * 0.14);
-    const ch = doorH - 0.04;
-    [-1, +1].forEach((side) => {
-      const cx = side * (ow / 2 - frameT - cw * 0.52);
-      const curtain = new THREE.Mesh(
-        new THREE.CylinderGeometry(cw * 0.46, cw * 0.54, ch, 16),
-        new THREE.MeshStandardMaterial({ color: curtainCol, roughness: 0.82 })
-      );
-      curtain.position.set(cx, ch / 2 + 0.04, inwardSign * 0.04);
-      curtain.castShadow = true;
-      g.add(curtain);
-      g.add(boxMesh(cw * 1.05, 0.05, cw * 1.05, tieCol, cx, ch * 0.42 + 0.04, inwardSign * 0.04));
-    });
-    g.add(boxMesh(ow - 0.06, 0.03, 0.03, 0xd8d2c7, 0, doorH - 0.02, inwardSign * 0.05));
-  } else if (kind === 'sliding_door') {
-    const panelW = (ow - frameT * 2) * 0.54;
-    const panelH = doorH - 0.05;
-    const frameDark = 0x545b61;
-    [-1, +1].forEach((side, idx) => {
-      const px = side * (ow * 0.21);
-      const pz = (idx === 0 ? -0.018 : +0.018);
-      const pGroup = new THREE.Group();
-      pGroup.position.set(px, panelH / 2 + 0.04, pz);
-      const glass = new THREE.Mesh(
-        new THREE.BoxGeometry(panelW - 0.04, panelH - 0.06, 0.022),
-        new THREE.MeshStandardMaterial({ color: 0xdff0f5, transparent: true, opacity: 0.52, roughness: 0.25 })
-      );
-      pGroup.add(glass);
-      pGroup.add(boxMesh(panelW, 0.035, 0.032, frameDark, 0, panelH / 2 - 0.018, 0));
-      pGroup.add(boxMesh(panelW, 0.035, 0.032, frameDark, 0, -panelH / 2 + 0.018, 0));
-      pGroup.add(boxMesh(0.032, panelH, 0.032, frameDark, -panelW / 2 + 0.016, 0, 0));
-      pGroup.add(boxMesh(0.032, panelH, 0.032, frameDark, +panelW / 2 - 0.016, 0, 0));
-      g.add(pGroup);
-    });
-  } else {
-    const leafW = Math.max(0.55, ow - frameT * 2 - 0.02);
-    const leafH = doorH - 0.04;
-    const hingePivot = new THREE.Group();
-    hingePivot.position.set(-ow / 2 + frameT + 0.01, 0.04, inwardSign * (wallT * 0.25));
-    const swingAngle = inwardSign * (kind === 'entry_door' ? -0.52 : 0.66);
-    hingePivot.rotation.y = -swingAngle;
-    hingePivot.add(boxMesh(leafW, leafH, 0.044, woodLeaf, leafW / 2, leafH / 2, 0));
-    hingePivot.add(boxMesh(leafW * 0.72, leafH * 0.36, 0.056, woodPanel, leafW / 2, leafH * 0.70, 0));
-    hingePivot.add(boxMesh(leafW * 0.72, leafH * 0.32, 0.056, woodPanel, leafW / 2, leafH * 0.26, 0));
-    hingePivot.add(boxMesh(0.07, 0.028, 0.09, brass, leafW * 0.84, leafH * 0.48, 0));
-    g.add(hingePivot);
-  }
+  // 去掉程序化建模的门框/门板/推拉门/窗帘，保留干净利落的墙体门洞与通道开口
   return g;
 }
 
