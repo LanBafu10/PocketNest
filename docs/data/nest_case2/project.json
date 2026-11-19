@@ -1,0 +1,2394 @@
+{
+  "id": "nest_case2",
+  "created_at": 1795036787,
+  "house_summary": "一室一厅一厨两卫带独立休闲区与衣帽间的紧凑型平层户型，动静分区清晰，餐厨与客厅以推拉门和书架半隔断相连，卧室通过开放式衣帽间串联主卫。",
+  "meta": {
+    "title": "Casa POP (Gon Architects / Madrid)",
+    "source": "https://www.archdaily.com/1185659/casa-pop-gon-architects",
+    "floorplan_url": "https://images.adsttc.com/media/images/6ab1/89b1/c765/2000/0134/71e7/large_jpg/floor_plan_-_-_casa_POP_by_gon_architects.jpg"
+  },
+  "floorplan": {
+    "name": "floorplan.jpg",
+    "url": "./data/nest_case2/floorplan.jpg"
+  },
+  "rooms": [
+    {
+      "id": "rm_75fe3324",
+      "name": "客餐厅",
+      "category": "living",
+      "icon": "🛋️",
+      "rel_x": -1.99,
+      "rel_z": -3.28,
+      "width_m": 7.8,
+      "depth_m": 4.35,
+      "window_dir": "N",
+      "openings": [
+        {
+          "kind": "window",
+          "wall": "north",
+          "offset": 0.26,
+          "width_m": 1.2,
+          "target": "户外",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "north",
+          "offset": 0.47,
+          "width_m": 1.2,
+          "target": "户外",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "north",
+          "offset": 0.88,
+          "width_m": 1.3,
+          "target": "户外",
+          "render_leaf": true
+        },
+        {
+          "kind": "sliding_door",
+          "wall": "south",
+          "offset": 0.33,
+          "width_m": 2.8,
+          "target": "厨房",
+          "render_leaf": true
+        },
+        {
+          "kind": "open_passage",
+          "wall": "south",
+          "offset": 0.91,
+          "width_m": 1.1,
+          "target": "衣帽间",
+          "render_leaf": true
+        },
+        {
+          "kind": "open_passage",
+          "wall": "east",
+          "offset": 0.5,
+          "width_m": 2.8,
+          "target": "休闲区",
+          "render_leaf": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_0e6e583d7d",
+          "name": "casa_POP_by_gon_architects_-_13.jpg",
+          "rel_path": "rooms/rm_75fe3324/ph_0e6e583d7d.jpg",
+          "url": "./data/nest_case2/rooms/rm_75fe3324/ph_0e6e583d7d.jpg",
+          "uploaded_at": 1795038156
+        },
+        {
+          "id": "ph_e3436411fe",
+          "name": "casa_POP_by_gon_architects_-_14.jpg",
+          "rel_path": "rooms/rm_75fe3324/ph_e3436411fe.jpg",
+          "url": "./data/nest_case2/rooms/rm_75fe3324/ph_e3436411fe.jpg",
+          "uploaded_at": 1795038156
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#F2F4F2",
+        "floor_hex": "#D7D6D2",
+        "align_summary": "依据北墙外窗、南墙厨房推拉门及黄色南瓜与绿色台灯共视链，西侧设折叠床柜、书桌与圆餐桌区，东侧设背西面东的红色沙发。",
+        "wall_features_detected": {
+          "windows": [
+            {
+              "wall": "north",
+              "offset": 0.22,
+              "width_m": 1.4,
+              "has_curtain": true,
+              "evidence": "photo 0 右侧可见北墙偏西侧白框外窗及顶部白色卷帘盒"
+            }
+          ],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_1a0ab218",
+            "type": "bookshelf",
+            "label": "南墙定制书柜",
+            "color_hex": "#E7EFEC",
+            "appearance": "通顶白色哑光板材定制书柜，上部多层开放式书格，底部带无拉手掩门储物柜",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.2,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.694,
+            "zm": 1.88,
+            "elevation_m": 0.0,
+            "pos_x": 0.089,
+            "pos_z": 0.4322,
+            "size_m": [
+              0.72,
+              1.92,
+              0.45
+            ],
+            "world_box_m": [
+              0.72,
+              1.92,
+              0.45
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.848,
+              2.2,
+              0.383
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              1
+            ],
+            "lux3d_prompt": "通顶白色哑光板材定制书柜，上部多层开放式书格，底部带无拉手掩门储物柜",
+            "crop_rel": "crops/item_1a0ab218.jpg",
+            "crop_url": "./data/nest_case2/crops/item_1a0ab218.jpg",
+            "clean_source_rel": "crops/item_1a0ab218_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_1a0ab218_ctx.jpg",
+            "clean_rel": "clean/item_1a0ab218.png",
+            "clean_url": "./data/nest_case2/clean/item_1a0ab218.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371522,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_1a0ab218.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_1a0ab218.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.833,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_1a0ab218_1",
+                "name": "文学藏书",
+                "category": "book",
+                "location": "各层书架隔板",
+                "status": "充足",
+                "qty": "多本",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_1a0ab218_2",
+                "name": "墨绿小台灯",
+                "category": "lamp",
+                "location": "中层右侧隔板",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_1a0ab218_3",
+                "name": "白色蘑菇灯",
+                "category": "lamp",
+                "location": "上层左侧隔板",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_1a0ab218_4",
+                "name": "壁挂电视机",
+                "category": "appliance",
+                "location": "中部嵌入柜区",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              }
+            ]
+          },
+          {
+            "id": "item_1ab98cc4",
+            "type": "dining_table",
+            "label": "圆形餐桌",
+            "color_hex": "#CEB08A",
+            "appearance": "浅原木色圆形实木桌面，搭配粗壮圆柱形木质底座，线条圆润温润",
+            "zone": "main",
+            "placement_mode": "center",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.35,
+            "center_z_offset": -0.1,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.939,
+            "zm": -0.144,
+            "elevation_m": 0.0,
+            "pos_x": -0.1203,
+            "pos_z": -0.0331,
+            "size_m": [
+              1.35,
+              0.76,
+              0.82
+            ],
+            "world_box_m": [
+              1.35,
+              0.76,
+              0.82
+            ],
+            "rot_deg": 0,
+            "facing": "room_center",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.3,
+              0.823,
+              1.3
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "浅原木色圆形实木桌面，搭配粗壮圆柱形木质底座，线条圆润温润",
+            "crop_rel": "crops/item_1ab98cc4.jpg",
+            "crop_url": "./data/nest_case2/crops/item_1ab98cc4.jpg",
+            "clean_source_rel": "crops/item_1ab98cc4_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_1ab98cc4_ctx.jpg",
+            "clean_rel": "clean/item_1ab98cc4.png",
+            "clean_url": "./data/nest_case2/clean/item_1ab98cc4.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371531,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_1ab98cc4.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_1ab98cc4.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.981,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_1ab98cc4_1",
+                "name": "白花玻璃瓶",
+                "category": "plant",
+                "location": "桌面中央",
+                "status": "常用",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_1ab98cc4_2",
+                "name": "蓝色陶瓷碗",
+                "category": "cookware",
+                "location": "桌面左右两侧",
+                "status": "常用",
+                "qty": "2个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_1ab98cc4_3",
+                "name": "透明水杯",
+                "category": "mug",
+                "location": "桌面左侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_61e5976c",
+            "type": "sofa",
+            "label": "红色布艺沙发",
+            "color_hex": "#A80E2F",
+            "appearance": "深酒红色丝绒布艺双人沙发，方正扶手与加高可调头枕，配黑色纤细金属支脚",
+            "zone": "main",
+            "placement_mode": "center",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.7,
+            "center_z_offset": -0.1,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.654,
+            "zm": -0.142,
+            "elevation_m": 0.0,
+            "pos_x": 0.2121,
+            "pos_z": -0.0325,
+            "size_m": [
+              2.1,
+              0.84,
+              0.88
+            ],
+            "world_box_m": [
+              2.1,
+              0.84,
+              0.88
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.8,
+              1.048,
+              0.778
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 1,
+            "seen_in_photos": [
+              1
+            ],
+            "lux3d_prompt": "深酒红色丝绒布艺双人沙发，方正扶手与加高可调头枕，配黑色纤细金属支脚",
+            "crop_rel": "crops/item_61e5976c.jpg",
+            "crop_url": "./data/nest_case2/crops/item_61e5976c.jpg",
+            "clean_source_rel": "crops/item_61e5976c_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_61e5976c_ctx.jpg",
+            "clean_rel": "clean/item_61e5976c.png",
+            "clean_url": "./data/nest_case2/clean/item_61e5976c.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371525,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_61e5976c.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_61e5976c.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_61e5976c_1",
+                "name": "红色靠垫",
+                "category": "pillow",
+                "location": "沙发靠背上方",
+                "status": "充足",
+                "qty": "2个",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              }
+            ]
+          },
+          {
+            "id": "item_12884f46",
+            "type": "cabinet",
+            "label": "白色折叠床柜",
+            "color_hex": "#F3F4F6",
+            "appearance": "通顶纯白哑光板材壁床柜，上方带双开门吊柜，北侧附带窄格开放书架",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.35,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -3.61,
+            "zm": -0.597,
+            "elevation_m": 0.0,
+            "pos_x": -0.4628,
+            "pos_z": -0.1372,
+            "size_m": [
+              0.8,
+              1.2,
+              0.44
+            ],
+            "world_box_m": [
+              0.44,
+              1.2,
+              0.8
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.752,
+              2.3,
+              0.505
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "通顶纯白哑光板材壁床柜，上方带双开门吊柜，北侧附带窄格开放书架",
+            "crop_rel": "crops/item_12884f46.jpg",
+            "crop_url": "./data/nest_case2/crops/item_12884f46.jpg",
+            "clean_source_rel": "crops/item_12884f46_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_12884f46_ctx.jpg",
+            "clean_rel": "clean/item_12884f46.png",
+            "clean_url": "./data/nest_case2/clean/item_12884f46.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371653,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_12884f46.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_12884f46.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_12884f46_1",
+                "name": "闲置读物",
+                "category": "book",
+                "location": "右侧边柜隔板",
+                "status": "充足",
+                "qty": "多本",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_e3422256",
+            "type": "chair",
+            "label": "木框餐椅2",
+            "color_hex": "#CBB292",
+            "appearance": "原木色实木框架餐椅，带弧形木质靠背与浅灰白色软包座垫",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 1,
+            "along_wall_offset": -0.25,
+            "center_z_offset": -0.05,
+            "parent_id": "item_1ab98cc4",
+            "parent_ref": "圆形餐桌",
+            "attach_slot": "around_table",
+            "xm": -1.303,
+            "zm": -0.717,
+            "elevation_m": 0.0,
+            "pos_x": -0.1671,
+            "pos_z": -0.1649,
+            "size_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "world_box_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "rot_deg": 32,
+            "facing": "table",
+            "facing_target": "圆形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.51,
+              0.82,
+              0.486
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "原木色实木框架餐椅，带弧形木质靠背与浅灰白色软包座垫",
+            "crop_rel": "crops/item_e3422256.jpg",
+            "crop_url": "./data/nest_case2/crops/item_e3422256.jpg",
+            "clean_source_rel": "crops/item_e3422256_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_e3422256_ctx.jpg",
+            "clean_rel": "clean/item_e3422256.png",
+            "clean_url": "./data/nest_case2/clean/item_e3422256.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371649,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_e3422256.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_e3422256.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.922,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_2c0ec5c6",
+            "type": "chair",
+            "label": "木框餐椅1",
+            "color_hex": "#CBB292",
+            "appearance": "原木色实木框架餐椅，带弧形木质靠背与浅灰白色软包座垫",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.35,
+            "center_z_offset": 0.05,
+            "parent_id": "item_1ab98cc4",
+            "parent_ref": "圆形餐桌",
+            "attach_slot": "around_table",
+            "xm": -0.574,
+            "zm": -0.717,
+            "elevation_m": 0.0,
+            "pos_x": -0.0736,
+            "pos_z": -0.1649,
+            "size_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "world_box_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "rot_deg": 328,
+            "facing": "table",
+            "facing_target": "圆形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.506,
+              0.82,
+              0.491
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "原木色实木框架餐椅，带弧形木质靠背与浅灰白色软包座垫",
+            "crop_rel": "crops/item_2c0ec5c6.jpg",
+            "crop_url": "./data/nest_case2/crops/item_2c0ec5c6.jpg",
+            "clean_source_rel": "crops/item_2c0ec5c6_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_2c0ec5c6_ctx.jpg",
+            "clean_rel": "clean/item_2c0ec5c6.png",
+            "clean_url": "./data/nest_case2/clean/item_2c0ec5c6.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371672,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_2c0ec5c6.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_2c0ec5c6.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.981,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_93fe76c9",
+            "type": "chair",
+            "label": "木框餐椅3",
+            "color_hex": "#CBB292",
+            "appearance": "原木色实木框架餐椅，带弧形木质靠背与浅灰白色软包座垫",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 2,
+            "along_wall_offset": -0.35,
+            "center_z_offset": -0.25,
+            "parent_id": "item_1ab98cc4",
+            "parent_ref": "圆形餐桌",
+            "attach_slot": "around_table",
+            "xm": -1.303,
+            "zm": 0.429,
+            "elevation_m": 0.0,
+            "pos_x": -0.1671,
+            "pos_z": 0.0986,
+            "size_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "world_box_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "rot_deg": 148,
+            "facing": "table",
+            "facing_target": "圆形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.563,
+              0.82,
+              0.531
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "原木色实木框架餐椅，带弧形木质靠背与浅灰白色软包座垫",
+            "crop_rel": "crops/item_93fe76c9.jpg",
+            "crop_url": "./data/nest_case2/crops/item_93fe76c9.jpg",
+            "clean_source_rel": "crops/item_93fe76c9_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_93fe76c9_ctx.jpg",
+            "clean_rel": "clean/item_93fe76c9.png",
+            "clean_url": "./data/nest_case2/clean/item_93fe76c9.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371744,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_93fe76c9.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_93fe76c9.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_88301798",
+            "type": "desk",
+            "label": "浅绿壁龛书桌",
+            "color_hex": "#EFF2F0",
+            "appearance": "嵌入西南角浅绿墙面的白色悬挑桌板，下方带白色护墙背板，造型极简",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_sw",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.72,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -3.54,
+            "zm": 1.515,
+            "elevation_m": 0.0,
+            "pos_x": -0.4538,
+            "pos_z": 0.3483,
+            "size_m": [
+              1.18,
+              1.38,
+              0.58
+            ],
+            "world_box_m": [
+              0.58,
+              1.38,
+              1.18
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.102,
+              2.4,
+              0.875
+            ],
+            "is_glass": false,
+            "confidence": 0.91,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "嵌入西南角浅绿墙面的白色悬挑桌板，下方带白色护墙背板，造型极简",
+            "crop_rel": "crops/item_88301798.jpg",
+            "crop_url": "./data/nest_case2/crops/item_88301798.jpg",
+            "clean_source_rel": "crops/item_88301798_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_88301798_ctx.jpg",
+            "clean_rel": "clean/item_88301798.png",
+            "clean_url": "./data/nest_case2/clean/item_88301798.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371737,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_88301798.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_88301798.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.934,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_88301798_1",
+                "name": "圆球小台灯",
+                "category": "lamp",
+                "location": "桌面最左侧",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_88301798_2",
+                "name": "平放笔记本",
+                "category": "notebook",
+                "location": "桌面中央偏左",
+                "status": "常用",
+                "qty": "1本",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_88301798_3",
+                "name": "插花玻璃瓶",
+                "category": "plant",
+                "location": "桌面右侧",
+                "status": "常用",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 57.7
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "画面右侧可见北墙偏西侧的窗户及圆餐桌，左侧可见南墙的书架和通往绿色厨房的推拉门，正前方为西墙的白色折叠床柜与南侧角落的浅绿色书桌区",
+            "confidence": 0.98
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "画面右侧为南墙书架（可见与第0张图共视的黄色南瓜摆件、绿色台灯及书架尽头偏东侧的敞开过道），前景左侧为红色沙发背面，正前方通过东墙敞开过道可见休闲区的两把青绿色单人椅及远端窗户",
+            "confidence": 0.98
+          }
+        ],
+        "audit": {
+          "notes": [
+            "本房间全部 8 件已清点家具均真实存在且无重复，贴墙方位、朝向与父子依附关系均与户型图及两张实景图吻合。",
+            "photo 1 远端透过东墙敞开过道可见的墨绿色扶手椅、落地灯、电视及尽端窗户均位于隔壁东侧休闲区，不属于本房间范围，未纳入本房间家具与窗户清单。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 8
+        }
+      },
+      "bbox_1000": [
+        273.0,
+        135.8,
+        628.0,
+        408.1
+      ],
+      "est_width_m": 6.1,
+      "est_depth_m": 3.1,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_2e4e58a2",
+      "name": "休闲区",
+      "category": "study",
+      "icon": "📚",
+      "rel_x": 3.45,
+      "rel_z": -3.51,
+      "width_m": 3.09,
+      "depth_m": 4.6,
+      "window_dir": "E",
+      "openings": [
+        {
+          "kind": "open_passage",
+          "wall": "west",
+          "offset": 0.5,
+          "width_m": 2.8,
+          "target": "客餐厅",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "east",
+          "offset": 0.43,
+          "width_m": 1.2,
+          "target": "户外",
+          "render_leaf": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_9784f18811",
+          "name": "casa_POP_by_gon_architects_-_10.jpg",
+          "rel_path": "rooms/rm_2e4e58a2/ph_9784f18811.jpg",
+          "url": "./data/nest_case2/rooms/rm_2e4e58a2/ph_9784f18811.jpg",
+          "uploaded_at": 1795038157
+        },
+        {
+          "id": "ph_bdb6b83168",
+          "name": "casa_POP_by_gon_architects_-_22.jpg",
+          "rel_path": "rooms/rm_2e4e58a2/ph_bdb6b83168.jpg",
+          "url": "./data/nest_case2/rooms/rm_2e4e58a2/ph_bdb6b83168.jpg",
+          "uploaded_at": 1795038158
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#EBECE9",
+        "floor_hex": "#CFCBC2",
+        "align_summary": "照片0与1均朝南拍摄，共视南墙通体薄荷绿书柜及其左侧（东侧）嵌墙电视、衣帽间敞开洞口与右侧（西侧）磨砂玻璃推拉门，未拍及南北其余家具及东侧外窗。",
+        "wall_features_detected": {
+          "windows": [],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_216b219c",
+            "type": "bookshelf",
+            "label": "薄荷绿通体书柜",
+            "color_hex": "#CBE1DC",
+            "appearance": "通体浅薄荷绿木质定制书柜，下部为无把手平开储物柜，上部为开放式格子书架且顶部横跨门洞",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.0,
+            "zm": 2.005,
+            "elevation_m": 0.0,
+            "pos_x": 0.0,
+            "pos_z": 0.4359,
+            "size_m": [
+              0.72,
+              1.92,
+              0.45
+            ],
+            "world_box_m": [
+              0.72,
+              1.92,
+              0.45
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.4,
+              2.283,
+              0.415
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              1
+            ],
+            "lux3d_prompt": "通体浅薄荷绿木质定制书柜，下部为无把手平开储物柜，上部为开放式格子书架且顶部横跨门洞",
+            "crop_rel": "crops/item_216b219c.jpg",
+            "crop_url": "./data/nest_case2/crops/item_216b219c.jpg",
+            "clean_source_rel": "crops/item_216b219c_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_216b219c_ctx.jpg",
+            "clean_rel": "clean/item_216b219c.png",
+            "clean_url": "./data/nest_case2/clean/item_216b219c.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371758,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_216b219c.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_216b219c.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.849,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_216b219c_1",
+                "name": "精装艺术书籍",
+                "category": "book",
+                "location": "中层各隔板",
+                "status": "充足",
+                "qty": "多本",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_216b219c_2",
+                "name": "白色小台灯",
+                "category": "lamp",
+                "location": "顶层中左隔板",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_216b219c_3",
+                "name": "墨绿小台灯",
+                "category": "lamp",
+                "location": "中下层右侧隔板",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_216b219c_4",
+                "name": "纸质收纳盒",
+                "category": "storage",
+                "location": "电视上方顶格",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_ad8005a3",
+            "type": "tv",
+            "label": "壁挂平板电视",
+            "color_hex": "#1F2124",
+            "appearance": "黑色超薄窄边框平板电视，嵌入南墙薄荷绿书柜东侧中段壁龛内壁挂安装",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "wall_high",
+            "wall_anchor": "south",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.94,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": "薄荷绿通体书柜",
+            "attach_slot": null,
+            "xm": 0.869,
+            "zm": 2.17,
+            "elevation_m": 1.15,
+            "pos_x": 0.2814,
+            "pos_z": 0.4717,
+            "size_m": [
+              1.1,
+              0.66,
+              0.12
+            ],
+            "world_box_m": [
+              1.1,
+              0.66,
+              0.12
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.61,
+              0.421,
+              0.119
+            ],
+            "is_glass": false,
+            "confidence": 0.86,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "黑色超薄窄边框平板电视，嵌入南墙薄荷绿书柜东侧中段壁龛内壁挂安装",
+            "crop_rel": "crops/item_ad8005a3.jpg",
+            "crop_url": "./data/nest_case2/crops/item_ad8005a3.jpg",
+            "clean_source_rel": "crops/item_ad8005a3_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_ad8005a3_ctx.jpg",
+            "clean_rel": "clean/item_ad8005a3.png",
+            "clean_url": "./data/nest_case2/clean/item_ad8005a3.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371798,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_ad8005a3.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_ad8005a3.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 55.2
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "画面正对通体薄荷绿书柜墙，可见通往黄色衣帽间的敞开洞口以及通往卧室的磨砂玻璃推拉门，对应户型图南墙紧邻衣帽间与卧室的构造，依几何铁律镜头朝南则左为东、右为西、后为北",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "画面斜向拍摄同一面薄荷绿书柜墙，左侧可见通往衣帽间的洞口及镜面反射的卧室床铺，中部为与photo_index 0共视的两组书架及磨砂玻璃推拉门，最右侧可见书柜尽头与垂直侧墙相接，主视面仍为南墙",
+            "confidence": 0.9
+          }
+        ],
+        "audit": {
+          "notes": [
+            "两张实景照片均朝南拍摄南墙书柜立面，左东右西，空间方位与户型图完全吻合",
+            "photo 0与photo 1中敞开过道内的黄色衣柜、镜门及镜中反射的床属于南侧相邻的衣帽间与卧室，不计入本房间",
+            "photo 1右侧磨砂玻璃移门及更右侧书桌区域位于西侧敞开过道之外的客餐厅区域，不计入本房间",
+            "户型图中本房间内的两张单人沙发椅、小圆几及蒲团均在两张实景照片视野之外，未做幻觉补全"
+          ],
+          "pass1_count": 0,
+          "merged_count": 2
+        }
+      },
+      "bbox_1000": [
+        628.0,
+        113.2,
+        768.0,
+        408.1
+      ],
+      "est_width_m": 2.4,
+      "est_depth_m": 3.1,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_ac96f1b9",
+      "name": "厨房",
+      "category": "kitchen",
+      "icon": "🍳",
+      "rel_x": -3.16,
+      "rel_z": 1.01,
+      "width_m": 5.45,
+      "depth_m": 4.23,
+      "window_dir": "NONE",
+      "openings": [
+        {
+          "kind": "sliding_door",
+          "wall": "north",
+          "offset": 0.48,
+          "width_m": 2.8,
+          "target": "客餐厅",
+          "render_leaf": false
+        },
+        {
+          "kind": "open_passage",
+          "wall": "south",
+          "offset": 0.17,
+          "width_m": 1.3,
+          "target": "玄关",
+          "render_leaf": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_83120fe1dc",
+          "name": "casa_POP_by_gon_architects_-_2.jpg",
+          "rel_path": "rooms/rm_ac96f1b9/ph_83120fe1dc.jpg",
+          "url": "./data/nest_case2/rooms/rm_ac96f1b9/ph_83120fe1dc.jpg",
+          "uploaded_at": 1795038159
+        },
+        {
+          "id": "ph_e596fcf9ae",
+          "name": "casa_POP_by_gon_architects_-_5.jpg",
+          "rel_path": "rooms/rm_ac96f1b9/ph_e596fcf9ae.jpg",
+          "url": "./data/nest_case2/rooms/rm_ac96f1b9/ph_e596fcf9ae.jpg",
+          "uploaded_at": 1795038159
+        },
+        {
+          "id": "ph_c329e432a5",
+          "name": "casa_POP_by_gon_architects_-_6.jpg",
+          "rel_path": "rooms/rm_ac96f1b9/ph_c329e432a5.jpg",
+          "url": "./data/nest_case2/rooms/rm_ac96f1b9/ph_c329e432a5.jpg",
+          "uploaded_at": 1795038159
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#6B7C68",
+        "floor_hex": "#CCC5BF",
+        "align_summary": "厨房东西向布局，北侧推拉门连客餐厅、南侧偏西过道连玄关；西墙为两高柜夹操作台与吊柜，东墙北段设电器高柜与冰箱，中央南北向设中岛台及东侧单把木质吧椅。",
+        "wall_features_detected": {
+          "windows": [],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_df17d193",
+            "type": "kitchen_counter",
+            "label": "中岛台",
+            "color_hex": "#5E7B73",
+            "appearance": "鼠尾草绿柜体配灰褐色石英石台面，南北向独立居中摆放，东侧悬挑可供就座。",
+            "zone": "main",
+            "placement_mode": "center",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.0,
+            "zm": -0.123,
+            "elevation_m": 0.0,
+            "pos_x": 0.0,
+            "pos_z": -0.0291,
+            "size_m": [
+              2.6,
+              0.86,
+              0.6
+            ],
+            "world_box_m": [
+              2.6,
+              0.86,
+              0.6
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.4,
+              1.255,
+              1.433
+            ],
+            "is_glass": false,
+            "confidence": 0.97,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "鼠尾草绿柜体配灰褐色石英石台面，南北向独立居中摆放，东侧悬挑可供就座。",
+            "crop_rel": "crops/item_df17d193.jpg",
+            "crop_url": "./data/nest_case2/crops/item_df17d193.jpg",
+            "clean_source_rel": "crops/item_df17d193_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_df17d193_ctx.jpg",
+            "clean_rel": "clean/item_df17d193.png",
+            "clean_url": "./data/nest_case2/clean/item_df17d193.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371818,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_df17d193.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_df17d193.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.992,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_df17d193_1",
+                "name": "柑橘柠檬果盘",
+                "category": "fruit",
+                "location": "台面中央",
+                "status": "充足",
+                "qty": "1盘",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_df17d193_2",
+                "name": "玻璃冷水壶",
+                "category": "mug",
+                "location": "台面右侧",
+                "status": "余量提醒",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_df17d193_3",
+                "name": "透明玻璃杯",
+                "category": "mug",
+                "location": "台面右侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              }
+            ]
+          },
+          {
+            "id": "item_a6adfe96",
+            "type": "kitchen_counter",
+            "label": "西墙橱柜台面",
+            "color_hex": "#536E58",
+            "appearance": "鼠尾草绿地柜配灰褐色石英石台面，南段嵌电磁炉，北段嵌不锈钢水槽。",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -2.355,
+            "zm": -0.047,
+            "elevation_m": 0.0,
+            "pos_x": -0.4321,
+            "pos_z": -0.0112,
+            "size_m": [
+              2.6,
+              0.86,
+              0.6
+            ],
+            "world_box_m": [
+              0.6,
+              0.86,
+              2.6
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.4,
+              1.353,
+              0.857
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "鼠尾草绿地柜配灰褐色石英石台面，南段嵌电磁炉，北段嵌不锈钢水槽。",
+            "crop_rel": "crops/item_a6adfe96.jpg",
+            "crop_url": "./data/nest_case2/crops/item_a6adfe96.jpg",
+            "clean_source_rel": "crops/item_a6adfe96_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_a6adfe96_ctx.jpg",
+            "clean_rel": "clean/item_a6adfe96.png",
+            "clean_url": "./data/nest_case2/clean/item_a6adfe96.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371824,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_a6adfe96.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_a6adfe96.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.998,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_a6adfe96_1",
+                "name": "银色摩卡壶",
+                "category": "cookware",
+                "location": "台面中央",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_a6adfe96_2",
+                "name": "软木隔热垫",
+                "category": "cookware",
+                "location": "台面中央",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              }
+            ]
+          },
+          {
+            "id": "item_0eadcf5e",
+            "type": "wall_cabinet",
+            "label": "西墙吊柜",
+            "color_hex": "#536E58",
+            "appearance": "鼠尾草绿无把手平板吊柜，底边嵌入暖白灯带，位于西墙操作台正上方。",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "west",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -2.475,
+            "zm": 0.0,
+            "elevation_m": 1.31,
+            "pos_x": -0.4541,
+            "pos_z": 0.0,
+            "size_m": [
+              2.1,
+              0.68,
+              0.36
+            ],
+            "world_box_m": [
+              0.36,
+              0.68,
+              2.1
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.556,
+              0.7,
+              0.446
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "鼠尾草绿无把手平板吊柜，底边嵌入暖白灯带，位于西墙操作台正上方。",
+            "crop_rel": "crops/item_0eadcf5e.jpg",
+            "crop_url": "./data/nest_case2/crops/item_0eadcf5e.jpg",
+            "clean_source_rel": "crops/item_0eadcf5e_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_0eadcf5e_ctx.jpg",
+            "clean_rel": "clean/item_0eadcf5e.png",
+            "clean_url": "./data/nest_case2/clean/item_0eadcf5e.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371884,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_0eadcf5e.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_0eadcf5e.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.917,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_bbb5c8ae",
+            "type": "cabinet",
+            "label": "西北角高柜",
+            "color_hex": "#536E58",
+            "appearance": "鼠尾草绿哑光通顶高柜，双层立面带竖向金属拉手，简约现代风格。",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_nw",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.78,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -2.435,
+            "zm": -1.645,
+            "elevation_m": 0.0,
+            "pos_x": -0.4468,
+            "pos_z": -0.3889,
+            "size_m": [
+              0.8,
+              1.2,
+              0.44
+            ],
+            "world_box_m": [
+              0.44,
+              1.2,
+              0.8
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.179,
+              2.0,
+              0.612
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "鼠尾草绿哑光通顶高柜，双层立面带竖向金属拉手，简约现代风格。",
+            "crop_rel": "crops/item_bbb5c8ae.jpg",
+            "crop_url": "./data/nest_case2/crops/item_bbb5c8ae.jpg",
+            "clean_source_rel": "crops/item_bbb5c8ae_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_bbb5c8ae_ctx.jpg",
+            "clean_rel": "clean/item_bbb5c8ae.png",
+            "clean_url": "./data/nest_case2/clean/item_bbb5c8ae.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371895,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_bbb5c8ae.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_bbb5c8ae.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.822,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_aaaec093",
+            "type": "chair",
+            "label": "木质吧台椅",
+            "color_hex": "#BA8E5B",
+            "appearance": "原木色实木高脚吧椅，弧形低靠背配四根斜向圆柱腿与脚踏横档。",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.25,
+            "center_z_offset": 0.25,
+            "parent_id": null,
+            "parent_ref": "中岛台",
+            "attach_slot": null,
+            "xm": 0.513,
+            "zm": 0.507,
+            "elevation_m": 0.0,
+            "pos_x": 0.0942,
+            "pos_z": 0.1197,
+            "size_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "world_box_m": [
+              0.48,
+              0.84,
+              0.48
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "中岛台",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.613,
+              1.05,
+              0.535
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              1
+            ],
+            "lux3d_prompt": "原木色实木高脚吧椅，弧形低靠背配四根斜向圆柱腿与脚踏横档。",
+            "crop_rel": "crops/item_aaaec093.jpg",
+            "crop_url": "./data/nest_case2/crops/item_aaaec093.jpg",
+            "clean_source_rel": "crops/item_aaaec093_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_aaaec093_ctx.jpg",
+            "clean_rel": "clean/item_aaaec093.png",
+            "clean_url": "./data/nest_case2/clean/item_aaaec093.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371905,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_aaaec093.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_aaaec093.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.957,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_bd597ae1",
+            "type": "cabinet",
+            "label": "西南角高柜",
+            "color_hex": "#536E58",
+            "appearance": "鼠尾草绿通顶收纳高柜，分上下双门配细长银色拉手，紧邻南侧玄关过道。",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_sw",
+            "wall_slot_order": 2,
+            "along_wall_offset": 0.78,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -2.435,
+            "zm": 1.645,
+            "elevation_m": 0.0,
+            "pos_x": -0.4468,
+            "pos_z": 0.3889,
+            "size_m": [
+              0.8,
+              1.2,
+              0.44
+            ],
+            "world_box_m": [
+              0.44,
+              1.2,
+              0.8
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.8,
+              6.101,
+              1.688
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 2,
+            "seen_in_photos": [
+              1,
+              2
+            ],
+            "lux3d_prompt": "鼠尾草绿通顶收纳高柜，分上下双门配细长银色拉手，紧邻南侧玄关过道。",
+            "crop_rel": "crops/item_bd597ae1.jpg",
+            "crop_url": "./data/nest_case2/crops/item_bd597ae1.jpg",
+            "clean_source_rel": "crops/item_bd597ae1_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_bd597ae1_ctx.jpg",
+            "clean_rel": "clean/item_bd597ae1.png",
+            "clean_url": "./data/nest_case2/clean/item_bd597ae1.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371936,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_bd597ae1.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_bd597ae1.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.957,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_8056a7cb",
+            "type": "cabinet",
+            "label": "东墙电器高柜",
+            "color_hex": "#536E58",
+            "appearance": "鼠尾草绿通顶电器柜，中部嵌入式安装黑色烤箱与微波炉，带竖向金属拉手。",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_ne",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.55,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 2.435,
+            "zm": -1.645,
+            "elevation_m": 0.0,
+            "pos_x": 0.4468,
+            "pos_z": -0.3889,
+            "size_m": [
+              0.8,
+              1.2,
+              0.44
+            ],
+            "world_box_m": [
+              0.44,
+              1.2,
+              0.8
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.242,
+              2.4,
+              0.678
+            ],
+            "is_glass": false,
+            "confidence": 0.91,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "鼠尾草绿通顶电器柜，中部嵌入式安装黑色烤箱与微波炉，带竖向金属拉手。",
+            "crop_rel": "crops/item_8056a7cb.jpg",
+            "crop_url": "./data/nest_case2/crops/item_8056a7cb.jpg",
+            "clean_source_rel": "crops/item_8056a7cb_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_8056a7cb_ctx.jpg",
+            "clean_rel": "clean/item_8056a7cb.png",
+            "clean_url": "./data/nest_case2/clean/item_8056a7cb.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371949,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_8056a7cb.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_8056a7cb.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_e60a8d9c",
+            "type": "fridge",
+            "label": "东墙嵌入式冰箱",
+            "color_hex": "#9CA0A3",
+            "appearance": "拉丝不锈钢立式双门冰箱，紧邻东墙电器高柜南侧，现代金属质感。",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.1,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 2.315,
+            "zm": 0.167,
+            "elevation_m": 0.0,
+            "pos_x": 0.4248,
+            "pos_z": 0.0394,
+            "size_m": [
+              0.76,
+              1.78,
+              0.68
+            ],
+            "world_box_m": [
+              0.68,
+              1.78,
+              0.76
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 180.0,
+            "glb_aligned_size": [
+              1.8,
+              4.848,
+              1.727
+            ],
+            "is_glass": false,
+            "confidence": 0.89,
+            "views": 1,
+            "seen_in_photos": [
+              0
+            ],
+            "lux3d_prompt": "拉丝不锈钢立式双门冰箱，紧邻东墙电器高柜南侧，现代金属质感。",
+            "crop_rel": "crops/item_e60a8d9c.jpg",
+            "crop_url": "./data/nest_case2/crops/item_e60a8d9c.jpg",
+            "clean_source_rel": "crops/item_e60a8d9c_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_e60a8d9c_ctx.jpg",
+            "clean_rel": "clean/item_e60a8d9c.png",
+            "clean_url": "./data/nest_case2/clean/item_e60a8d9c.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371958,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_e60a8d9c.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_e60a8d9c.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.955,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 40.3
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "相机在客餐厅（北侧）通过北墙推拉门开口向南拍摄厨房内部；画面正中深处可见粉色门洞（南墙偏西的玄关过道）；书架墙即北墙客餐厅一侧，框住开口左右两侧；按朝南铁律：左=东、右=西。",
+            "confidence": 0.88
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "画面左后方可见粉色门（南墙偏西的玄关过道），符合朝西时南墙在左；右侧墙面为北墙区域（推拉门框柱可见）；橱柜台面沿西墙延伸至画面正前方；黄色吊灯悬于岛台正上方，岛台居中；按朝西铁律：左=南、右=北。",
+            "confidence": 0.85
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "主操作台（嵌炉灶、水槽）正对镜头，对应西墙橱柜；画面左侧可见粉色门洞（南墙偏西玄关过道）；画面右侧可见磨砂玻璃推拉门（北墙通往客餐厅的推拉门）；前景岛台与photo_index=1共视，机位方向一致；按朝西铁律：左=南、右=北。",
+            "confidence": 0.9
+          }
+        ],
+        "audit": {
+          "notes": [
+            "房间四面墙中北墙为推拉门通往客餐厅（photo 0前景书架及书桌均属客餐厅门外区域，不计入厨房），南墙西侧为敞开过道通往玄关，西墙与东墙均为实体墙且无外窗或连通阳台。",
+            "户型图在中岛台东侧绘有两把吧台椅，但photo 0与photo 1实景均清晰显示中岛台东侧仅摆放一把木质吧台椅，未增补第二把椅。",
+            "所有已识别的8件家具均真实存在、无重复且墙体锚点与父子依附关系准确。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 8
+        }
+      },
+      "bbox_1000": [
+        273.0,
+        421.5,
+        521.5,
+        680.3
+      ],
+      "est_width_m": 4.2,
+      "est_depth_m": 3.3,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_8a4ff8cd",
+      "name": "衣帽间",
+      "category": "storage",
+      "icon": "📦",
+      "rel_x": 0.95,
+      "rel_z": 0.97,
+      "width_m": 2.79,
+      "depth_m": 4.14,
+      "window_dir": "NONE",
+      "openings": [
+        {
+          "kind": "open_passage",
+          "wall": "north",
+          "offset": 0.61,
+          "width_m": 1.1,
+          "target": "客餐厅",
+          "render_leaf": true
+        },
+        {
+          "kind": "open_passage",
+          "wall": "east",
+          "offset": 0.5,
+          "width_m": 2.5,
+          "target": "卧室",
+          "render_leaf": true
+        },
+        {
+          "kind": "door",
+          "wall": "south",
+          "offset": 0.69,
+          "width_m": 0.8,
+          "target": "主卫",
+          "render_leaf": true
+        }
+      ],
+      "photos": [],
+      "scene_spec": null,
+      "bbox_1000": [
+        521.5,
+        408.1,
+        645.0,
+        680.3
+      ],
+      "est_width_m": 2.1,
+      "est_depth_m": 3.3
+    },
+    {
+      "id": "rm_16a558ba",
+      "name": "卧室",
+      "category": "bedroom",
+      "icon": "🛏️",
+      "rel_x": 4.14,
+      "rel_z": 1.1,
+      "width_m": 3.58,
+      "depth_m": 4.62,
+      "window_dir": "E",
+      "openings": [
+        {
+          "kind": "open_passage",
+          "wall": "west",
+          "offset": 0.5,
+          "width_m": 2.5,
+          "target": "衣帽间",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "east",
+          "offset": 0.59,
+          "width_m": 1.9,
+          "target": "户外",
+          "render_leaf": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_3c62d0c185",
+          "name": "casa_POP_by_gon_architects_-_15.jpg",
+          "rel_path": "rooms/rm_16a558ba/ph_3c62d0c185.jpg",
+          "url": "./data/nest_case2/rooms/rm_16a558ba/ph_3c62d0c185.jpg",
+          "uploaded_at": 1795038161
+        },
+        {
+          "id": "ph_7778395c87",
+          "name": "casa_POP_by_gon_architects_-_18.jpg",
+          "rel_path": "rooms/rm_16a558ba/ph_7778395c87.jpg",
+          "url": "./data/nest_case2/rooms/rm_16a558ba/ph_7778395c87.jpg",
+          "uploaded_at": 1795038161
+        },
+        {
+          "id": "ph_e7b88a7e26",
+          "name": "casa_POP_by_gon_architects_-_17.jpg",
+          "rel_path": "rooms/rm_16a558ba/ph_e7b88a7e26.jpg",
+          "url": "./data/nest_case2/rooms/rm_16a558ba/ph_e7b88a7e26.jpg",
+          "uploaded_at": 1795038161
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#F2F1EC",
+        "floor_hex": "#DDD6C8",
+        "align_summary": "双人床头贴南墙黄色瓷砖半墙摆放，西侧床头柜紧邻床头西侧与南墙黄色卫生间门；西墙居中设浅黄色嵌入式衣柜（北端带镜面），镜中反射出北墙盆栽绿植，西北角为混凝土柱与北侧门洞。",
+        "wall_features_detected": {
+          "windows": [],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_1363f8e5",
+            "type": "bed",
+            "label": "原木双人床",
+            "color_hex": "#C89B6E",
+            "appearance": "原木色框架双人床，带储物抽屉底座与简约横条床头，铺白色床品",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 1,
+            "along_wall_offset": -0.3,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.279,
+            "zm": 1.23,
+            "elevation_m": 0.0,
+            "pos_x": -0.0779,
+            "pos_z": 0.2662,
+            "size_m": [
+              1.58,
+              0.9,
+              2.02
+            ],
+            "world_box_m": [
+              1.58,
+              0.9,
+              2.02
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.15,
+              1.233,
+              2.018
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "原木色框架双人床，带储物抽屉底座与简约横条床头，铺白色床品",
+            "crop_rel": "crops/item_1363f8e5.jpg",
+            "crop_url": "./data/nest_case2/crops/item_1363f8e5.jpg",
+            "clean_source_rel": "crops/item_1363f8e5_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_1363f8e5_ctx.jpg",
+            "clean_rel": "clean/item_1363f8e5.png",
+            "clean_url": "./data/nest_case2/clean/item_1363f8e5.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8371996,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_1363f8e5.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_1363f8e5.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_1363f8e5_1",
+                "name": "纯白睡眠枕",
+                "category": "pillow",
+                "location": "床头铺面",
+                "status": "常用",
+                "qty": "2个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_1363f8e5_2",
+                "name": "墨绿小台灯",
+                "category": "lamp",
+                "location": "床头台面偏左",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_1363f8e5_3",
+                "name": "复古床头台灯",
+                "category": "lamp",
+                "location": "床头台面右侧",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_1363f8e5_4",
+                "name": "白色蝴蝶兰",
+                "category": "plant",
+                "location": "床头台面左侧",
+                "status": "充足",
+                "qty": "1盆",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              }
+            ]
+          },
+          {
+            "id": "item_7100a87b",
+            "type": "nightstand",
+            "label": "原木矮床头柜",
+            "color_hex": "#B8895C",
+            "appearance": "原木色方形低矮木质床头柜，表面带微抬起边缘，紧贴床头西侧",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.94,
+            "center_z_offset": 0.0,
+            "parent_id": "item_1363f8e5",
+            "parent_ref": "原木双人床",
+            "attach_slot": "beside_headboard",
+            "xm": -1.349,
+            "zm": 2.02,
+            "elevation_m": 0.0,
+            "pos_x": -0.3768,
+            "pos_z": 0.4372,
+            "size_m": [
+              0.46,
+              0.54,
+              0.44
+            ],
+            "world_box_m": [
+              0.46,
+              0.54,
+              0.44
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.6,
+              0.511,
+              0.375
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              2
+            ],
+            "lux3d_prompt": "原木色方形低矮木质床头柜，表面带微抬起边缘，紧贴床头西侧",
+            "crop_rel": "crops/item_7100a87b.jpg",
+            "crop_url": "./data/nest_case2/crops/item_7100a87b.jpg",
+            "clean_source_rel": "crops/item_7100a87b_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_7100a87b_ctx.jpg",
+            "clean_rel": "clean/item_7100a87b.png",
+            "clean_url": "./data/nest_case2/clean/item_7100a87b.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8372020,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_7100a87b.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_7100a87b.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.979,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_7100a87b_1",
+                "name": "橙色床头书",
+                "category": "book",
+                "location": "柜面上方",
+                "status": "常用",
+                "qty": "1本",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              }
+            ]
+          },
+          {
+            "id": "item_3583abd2",
+            "type": "plant",
+            "label": "北墙盆栽绿植",
+            "color_hex": "#4B6947",
+            "appearance": "深色花盆栽种的直立绿叶观叶植物，放置于北墙前低矮木凳上",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "north",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.1,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.149,
+            "zm": -2.015,
+            "elevation_m": 0.0,
+            "pos_x": 0.0418,
+            "pos_z": -0.4361,
+            "size_m": [
+              0.45,
+              0.95,
+              0.45
+            ],
+            "world_box_m": [
+              0.45,
+              0.95,
+              0.45
+            ],
+            "rot_deg": 0,
+            "facing": "south",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.522,
+              0.9,
+              0.462
+            ],
+            "is_glass": false,
+            "confidence": 0.85,
+            "views": 1,
+            "seen_in_photos": [
+              1
+            ],
+            "lux3d_prompt": "深色花盆栽种的直立绿叶观叶植物，放置于北墙前低矮木凳上",
+            "crop_rel": "crops/item_3583abd2.jpg",
+            "crop_url": "./data/nest_case2/crops/item_3583abd2.jpg",
+            "clean_source_rel": "crops/item_3583abd2_ctx.jpg",
+            "clean_source_url": "./data/nest_case2/crops/item_3583abd2_ctx.jpg",
+            "clean_rel": "clean/item_3583abd2.png",
+            "clean_url": "./data/nest_case2/clean/item_3583abd2.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8372035,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_3583abd2.glb",
+            "glb_url": "./data/nest_case2/models_opt/item_3583abd2.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.99,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 33.7
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "相机位于北侧书架区域透过西北角门洞朝南拍摄，门框左侧紧邻西北角混凝土柱，右侧为西墙衣帽间黄色衣柜，正前方为南侧卫生间黄门，左侧可见床及南墙黄色瓷砖半墙。",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "正前方为西侧衣帽间黄色衣柜与镜面，左侧为靠南墙摆放的床头与黄色瓷砖半墙及西南侧黄门，右侧为西北角混凝土柱及北侧门洞，镜中反射出东侧床尾及北墙绿植。",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "画面最左侧前景为西北角混凝土柱，正前方为南墙黄色瓷砖半墙、床头及右侧通往卫生间的黄色门，左侧延伸向东南角床体区域。",
+            "confidence": 0.9
+          }
+        ],
+        "audit": {
+          "notes": [
+            "浅黄嵌入式衣柜(item_473c7f03)与黄色卫生间门均位于西墙敞开过道之外的隔壁衣帽间内，已标记为不存在于本卧室",
+            "局部户型图显示双人床东侧还有一只床头柜，但因三张实景照机位及前景混凝土柱遮挡均未拍到，故未写入missing",
+            "南墙为实墙带黄色瓷砖半高台面，无漏画外窗，房间无连通阳台子区"
+          ],
+          "pass1_count": 0,
+          "merged_count": 3
+        }
+      },
+      "bbox_1000": [
+        650.5,
+        408.1,
+        810.0,
+        704.4
+      ],
+      "est_width_m": 2.9,
+      "est_depth_m": 3.3,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_060dfeea",
+      "name": "玄关",
+      "category": "entry",
+      "icon": "🚪",
+      "rel_x": -5.0,
+      "rel_z": 4.46,
+      "width_m": 1.77,
+      "depth_m": 2.67,
+      "window_dir": "NONE",
+      "openings": [
+        {
+          "kind": "entry_door",
+          "wall": "south",
+          "offset": 0.47,
+          "width_m": 1.0,
+          "target": "户外",
+          "render_leaf": true
+        },
+        {
+          "kind": "open_passage",
+          "wall": "north",
+          "offset": 0.5,
+          "width_m": 1.3,
+          "target": "厨房",
+          "render_leaf": true
+        },
+        {
+          "kind": "door",
+          "wall": "east",
+          "offset": 0.36,
+          "width_m": 0.7,
+          "target": "次卫",
+          "render_leaf": true
+        }
+      ],
+      "photos": [],
+      "scene_spec": null,
+      "bbox_1000": [
+        276.5,
+        690.9,
+        355.0,
+        855.7
+      ],
+      "est_width_m": 1.4,
+      "est_depth_m": 2.0
+    },
+    {
+      "id": "rm_dc877723",
+      "name": "次卫",
+      "category": "bath",
+      "icon": "🛁",
+      "rel_x": -2.85,
+      "rel_z": 4.46,
+      "width_m": 2.53,
+      "depth_m": 2.67,
+      "window_dir": "NONE",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "west",
+          "offset": 0.36,
+          "width_m": 0.7,
+          "target": "玄关",
+          "render_leaf": false
+        }
+      ],
+      "photos": [],
+      "scene_spec": null,
+      "bbox_1000": [
+        355.0,
+        680.3,
+        469.5,
+        857.9
+      ],
+      "est_width_m": 2.0,
+      "est_depth_m": 1.9
+    },
+    {
+      "id": "rm_09a299d8",
+      "name": "主卫",
+      "category": "bath",
+      "icon": "🛁",
+      "rel_x": 0.46,
+      "rel_z": 4.46,
+      "width_m": 3.78,
+      "depth_m": 2.67,
+      "window_dir": "E",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "north",
+          "offset": 0.73,
+          "width_m": 0.8,
+          "target": "衣帽间",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "east",
+          "offset": 0.54,
+          "width_m": 1.5,
+          "target": "户外",
+          "render_leaf": true
+        }
+      ],
+      "photos": [],
+      "scene_spec": null,
+      "bbox_1000": [
+        476.5,
+        680.3,
+        650.5,
+        857.9
+      ],
+      "est_width_m": 3.1,
+      "est_depth_m": 2.0
+    }
+  ],
+  "built_3d": true,
+  "updated_at": 1795049763
+}

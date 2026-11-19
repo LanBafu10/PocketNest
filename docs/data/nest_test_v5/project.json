@@ -1,0 +1,4085 @@
+{
+  "id": "nest_test_v5",
+  "created_at": 1795022700,
+  "house_summary": "两室一厅一厨一卫户型，南北狭长布局，北侧为卧室A，中部西侧为客厅、东侧为玄关、卫生间及过道，南侧西侧为卧室B、东侧为厨房。",
+  "floorplan": {
+    "name": "微信图片_20261020060234_288_4.jpg",
+    "url": "./data/nest_test_v5/floorplan_1793451431.jpg"
+  },
+  "rooms": [
+    {
+      "id": "rm_b00006df",
+      "name": "卧室A",
+      "category": "bedroom",
+      "icon": "🛏️",
+      "rel_x": -0.04,
+      "rel_z": -4.79,
+      "width_m": 2.84,
+      "depth_m": 3.52,
+      "window_dir": "N",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "south",
+          "offset": 0.555,
+          "width_m": 0.78,
+          "target": "客厅",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "north",
+          "offset": 0.52,
+          "width_m": 1.35,
+          "target": "户外",
+          "render_leaf": true,
+          "backfilled": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_clean_rm_b00006df",
+          "name": "卧室A_3D实景视图.jpg",
+          "rel_path": "docs/shots/clean_rm_b00006df.jpg",
+          "url": "./data/nest_test_v5/docs/shots/clean_rm_b00006df.jpg"
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#ECEEEF",
+        "floor_hex": "#C59B6D",
+        "align_summary": "南墙居中为通往客厅的平开房门，北墙补全居中外窗；西墙从北至南依次布置靠北的浅灰木框双人床（上方壁挂空调）、白色落地晾衣架及西南角白色小圆桌，东墙布置米色三层抽屉柜与东南角深棕色转角柜，跨照片共视链吻合。",
+        "wall_features_detected": {
+          "windows": [
+            {
+              "wall": "north",
+              "offset": 0.52,
+              "width_m": 1.35,
+              "has_curtain": true,
+              "evidence": "photo 2 正前方北墙可见木框双扇外窗及浅蓝色单侧窗帘"
+            }
+          ],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_434f1d2d",
+            "type": "bed",
+            "label": "浅灰木框双人床",
+            "color_hex": "#9B9E9F",
+            "appearance": "浅灰色布艺床垫搭配原木排骨架床框，配浅灰木纹平板床头靠背",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.94,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.35,
+            "zm": -0.884,
+            "elevation_m": 0.0,
+            "pos_x": -0.1232,
+            "pos_z": -0.251,
+            "size_m": [
+              1.5,
+              0.85,
+              2.0
+            ],
+            "world_box_m": [
+              2.0,
+              0.85,
+              1.5
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.0,
+              1.761,
+              2.01
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              2,
+              3
+            ],
+            "lux3d_prompt": "浅灰色布艺床垫搭配原木排骨架床框，配浅灰木纹平板床头靠背",
+            "crop_rel": "crops/item_434f1d2d.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_434f1d2d.png",
+            "clean_source_rel": "crops/item_6dcdc3c4_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_6dcdc3c4_ctx.jpg",
+            "clean_rel": "clean/item_434f1d2d.png",
+            "clean_url": "./data/nest_test_v5/clean/item_434f1d2d.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8331916,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_434f1d2d.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_434f1d2d.glb"
+          },
+          {
+            "id": "item_e3030319",
+            "type": "cabinet",
+            "label": "米色三层抽屉柜",
+            "color_hex": "#ECE8CD",
+            "appearance": "米黄色塑料材质三层抽屉式收纳柜，配黑色横条抽屉拉手",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.05,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.15,
+            "zm": 0.071,
+            "elevation_m": 0.0,
+            "pos_x": 0.4049,
+            "pos_z": 0.0201,
+            "size_m": [
+              0.55,
+              0.75,
+              0.4
+            ],
+            "world_box_m": [
+              0.4,
+              0.75,
+              0.55
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.717,
+              0.85,
+              0.565
+            ],
+            "is_glass": false,
+            "confidence": 0.92,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "米黄色塑料材质三层抽屉式收纳柜，配黑色横条抽屉拉手",
+            "crop_rel": "crops/item_e3030319.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_e3030319.png",
+            "clean_source_rel": "crops/item_e3030319_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_e3030319_ctx.jpg",
+            "clean_rel": "clean/item_e3030319.png",
+            "clean_url": "./data/nest_test_v5/clean/item_e3030319.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8359137,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_e3030319.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_e3030319.glb",
+            "lux_error": null,
+            "lux_clean_used": true,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "surface_items": [
+              {
+                "id": "si_item_e3030319_1",
+                "name": "书本册子",
+                "category": "book",
+                "location": "柜顶右侧",
+                "status": "常用",
+                "qty": "2本",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_e3030319_2",
+                "name": "牛皮文件袋",
+                "category": "storage",
+                "location": "柜顶左侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_385ce9ad",
+            "type": "cabinet",
+            "label": "深棕色转角置物柜",
+            "color_hex": "#3B2822",
+            "appearance": "深红棕色实木弧形转角高柜，上部三层敞开扇形架，下部双门储物柜",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_se",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.85,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.025,
+            "zm": 1.365,
+            "elevation_m": 0.0,
+            "pos_x": 0.3609,
+            "pos_z": 0.3878,
+            "size_m": [
+              0.65,
+              2.05,
+              0.65
+            ],
+            "world_box_m": [
+              0.65,
+              2.05,
+              0.65
+            ],
+            "rot_deg": 180,
+            "facing": "room_center",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.889,
+              1.9,
+              0.656
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              1
+            ],
+            "lux3d_prompt": "深红棕色实木弧形转角高柜，上部三层敞开扇形架，下部双门储物柜",
+            "crop_rel": "crops/item_385ce9ad.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_385ce9ad.png",
+            "clean_source_rel": "crops/item_385ce9ad_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_385ce9ad_ctx.jpg",
+            "clean_rel": "clean/item_385ce9ad.png",
+            "clean_url": "./data/nest_test_v5/clean/item_385ce9ad.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353526,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_385ce9ad.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_385ce9ad.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.89,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_385ce9ad_1",
+                "name": "箱式电风扇",
+                "category": "appliance",
+                "location": "柜体中层台面",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              }
+            ]
+          },
+          {
+            "id": "item_85cb2b8d",
+            "type": "drying_rack",
+            "label": "白色落地晾衣架",
+            "color_hex": "#EAE7DC",
+            "appearance": "米白色细金属管框架落地晾衣架，顶部单横杆配底部双横杆支撑",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.3,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.14,
+            "zm": 0.379,
+            "elevation_m": 0.0,
+            "pos_x": -0.4014,
+            "pos_z": 0.1078,
+            "size_m": [
+              0.85,
+              1.5,
+              0.42
+            ],
+            "world_box_m": [
+              0.42,
+              1.5,
+              0.85
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.427,
+              1.7,
+              0.425
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 2,
+            "seen_in_photos": [
+              2,
+              3
+            ],
+            "lux3d_prompt": "米白色细金属管框架落地晾衣架，顶部单横杆配底部双横杆支撑",
+            "crop_rel": "crops/item_85cb2b8d.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_85cb2b8d.png",
+            "clean_source_rel": "crops/item_85cb2b8d_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_85cb2b8d_ctx.jpg",
+            "clean_rel": "clean/item_85cb2b8d.png",
+            "clean_url": "./data/nest_test_v5/clean/item_85cb2b8d.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353575,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_85cb2b8d.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_85cb2b8d.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_85cb2b8d_1",
+                "name": "格纹床单",
+                "category": "laundry",
+                "location": "晾衣架横杆",
+                "status": "常用",
+                "qty": "1条",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              }
+            ]
+          },
+          {
+            "id": "item_504c3d74",
+            "type": "other",
+            "label": "白色壁挂空调",
+            "color_hex": "#F0F1EE",
+            "appearance": "白色长方形壁挂式分体空调室内机，机身简洁带有能效标识",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "west",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.94,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.24,
+            "zm": -1.213,
+            "elevation_m": 1.9,
+            "pos_x": -0.4366,
+            "pos_z": -0.3445,
+            "size_m": [
+              0.8,
+              0.28,
+              0.22
+            ],
+            "world_box_m": [
+              0.22,
+              0.28,
+              0.8
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.9,
+              0.363,
+              0.292
+            ],
+            "is_glass": false,
+            "confidence": 0.92,
+            "views": 1,
+            "seen_in_photos": [
+              2
+            ],
+            "lux3d_prompt": "白色长方形壁挂式分体空调室内机，机身简洁带有能效标识",
+            "crop_rel": "crops/item_504c3d74.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_504c3d74.png",
+            "clean_source_rel": "crops/item_504c3d74_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_504c3d74_ctx.jpg",
+            "clean_rel": "clean/item_504c3d74.png",
+            "clean_url": "./data/nest_test_v5/clean/item_504c3d74.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353569,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_504c3d74.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_504c3d74.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.994,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_059836fd",
+            "type": "side_table",
+            "label": "白色小圆桌",
+            "color_hex": "#F4F4F2",
+            "appearance": "白色圆形桌面搭配浅灰圆柱支撑腿，造型简约紧凑的边几小圆桌",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_sw",
+            "wall_slot_order": 2,
+            "along_wall_offset": 0.8,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.05,
+            "zm": 1.39,
+            "elevation_m": 0.0,
+            "pos_x": -0.3697,
+            "pos_z": 0.3949,
+            "size_m": [
+              0.6,
+              0.55,
+              0.6
+            ],
+            "world_box_m": [
+              0.6,
+              0.55,
+              0.6
+            ],
+            "rot_deg": 180,
+            "facing": "room_center",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.8,
+              0.719,
+              0.799
+            ],
+            "is_glass": false,
+            "confidence": 0.88,
+            "views": 1,
+            "seen_in_photos": [
+              3
+            ],
+            "lux3d_prompt": "白色圆形桌面搭配浅灰圆柱支撑腿，造型简约紧凑的边几小圆桌",
+            "crop_rel": "crops/item_059836fd.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_059836fd.png",
+            "clean_source_rel": "crops/item_2f3c035a_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_2f3c035a_ctx.jpg",
+            "clean_rel": "clean/item_059836fd.png",
+            "clean_url": "./data/nest_test_v5/clean/item_059836fd.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332161,
+            "lux_version": null,
+            "glb_rel": "models_opt/item_059836fd.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_059836fd.glb",
+            "surface_items": [
+              {
+                "id": "si_item_059836fd_1",
+                "name": "原木卷纸",
+                "category": "tissue",
+                "location": "桌面右侧",
+                "status": "充足",
+                "qty": "2卷",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_059836fd_2",
+                "name": "米色收纳包",
+                "category": "storage",
+                "location": "桌面后侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_059836fd_3",
+                "name": "彩色手提袋",
+                "category": "storage",
+                "location": "桌面左侧",
+                "status": "常用",
+                "qty": "2个",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_059836fd_4",
+                "name": "香薰扩香瓶",
+                "category": "skincare",
+                "location": "圆桌台面",
+                "status": "充足",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_059836fd_5",
+                "name": "床头睡前读物",
+                "category": "book",
+                "location": "桌面边缘",
+                "status": "常用",
+                "qty": "2本",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 36.7
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "画面未直接拍到门窗，但通过共视家具链可锁定：左侧为靠近北墙的床铺及黑色箱板，正前方为东墙边的米色抽屉柜与银色行李箱，右侧为东南角的深棕色角柜与白色风扇",
+            "confidence": 0.92
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "画面右侧可见通往客厅的南墙平开木门，门左侧（东面）紧邻东南角深棕色角柜，画面中心及左侧为带墙面裂纹的东墙及米色抽屉柜、银色行李箱，故镜头主要朝向东墙且右侧为南墙",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "north",
+            "left_wall": "west",
+            "right_wall": "east",
+            "back_wall": "south",
+            "anchor_evidence": "正前方为北墙外窗（简版户型图未标出的外侧窗），左侧为西墙的空调挂机、床头靠背及晾衣架，右侧为东墙及床尾侧的抽屉柜与行李箱",
+            "confidence": 0.96
+          },
+          {
+            "photo_index": 3,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "通过共视家具链锁定：右侧可见贴西墙放置的灰色床头靠背，中间为白色晾衣架，左侧为西南角白色圆桌，左下角边缘可见南墙木门框",
+            "confidence": 0.91
+          }
+        ],
+        "audit": {
+          "notes": [
+            "房间为独立次卧(卧室A)，南墙居中为平开房门，北墙居中有一扇木框外窗及浅蓝色窗帘，无连通阳台。",
+            "6件家具均真实存在且无重复或遗漏，已根据西北角床位及壁挂空调的实际贴角位置修正西墙与东墙沿墙偏移量。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 6
+        }
+      },
+      "bbox_1000": [
+        435.0,
+        116.7,
+        559.4,
+        322.5
+      ],
+      "est_width_m": 2.5,
+      "est_depth_m": 2.8,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_00e26c38",
+      "name": "客厅",
+      "category": "living",
+      "icon": "🛋️",
+      "rel_x": -0.99,
+      "rel_z": -0.88,
+      "width_m": 3.43,
+      "depth_m": 4.31,
+      "window_dir": "N",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "north",
+          "offset": 0.856,
+          "width_m": 0.78,
+          "target": "卧室A",
+          "render_leaf": false
+        },
+        {
+          "kind": "open_passage",
+          "wall": "east",
+          "offset": 0.13,
+          "width_m": 1.0,
+          "target": "玄关",
+          "render_leaf": true
+        },
+        {
+          "kind": "door",
+          "wall": "east",
+          "offset": 0.861,
+          "width_m": 0.8,
+          "target": "过道",
+          "render_leaf": true
+        },
+        {
+          "kind": "door",
+          "wall": "south",
+          "offset": 0.86,
+          "width_m": 0.8,
+          "target": "卧室B",
+          "render_leaf": false
+        },
+        {
+          "kind": "window",
+          "wall": "north",
+          "offset": 0.179,
+          "width_m": 1.1,
+          "target": "户外",
+          "render_leaf": true,
+          "backfilled": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_clean_rm_00e26c38",
+          "name": "客厅_3D实景视图.jpg",
+          "rel_path": "docs/shots/clean_rm_00e26c38.jpg",
+          "url": "./data/nest_test_v5/docs/shots/clean_rm_00e26c38.jpg"
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#ECECE9",
+        "floor_hex": "#8E6B4E",
+        "align_summary": "依据南墙东侧卧室B门与冰箱共视、北墙西侧外窗与墨绿色西墙共视，确立双开门冰箱靠南墙偏西侧摆放，L型布艺沙发贴西北转角及墨绿色西墙摆放，壁挂空调位于西墙北端上方，黑色长方形餐桌及4把餐椅位于房间中偏西侧的沙发前方。",
+        "wall_features_detected": {
+          "windows": [
+            {
+              "wall": "north",
+              "offset": 0.12,
+              "width_m": 1.15,
+              "has_curtain": true,
+              "evidence": "照片0、2、3可见北墙偏西侧靠近西北角处有木框推拉外窗并装有灰色卷帘"
+            }
+          ],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_bc4bc965",
+            "type": "fridge",
+            "label": "双开门冰箱",
+            "color_hex": "#B5AC9A",
+            "appearance": "香槟金色金属面板，对开双门立式造型，门缝有黑色竖向拉手槽",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.65,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.195,
+            "zm": 1.735,
+            "elevation_m": 0.0,
+            "pos_x": -0.3484,
+            "pos_z": 0.4026,
+            "size_m": [
+              0.9,
+              1.78,
+              0.7
+            ],
+            "world_box_m": [
+              0.9,
+              1.78,
+              0.7
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.78,
+              3.363,
+              1.234
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 4,
+            "seen_in_photos": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "lux3d_prompt": "香槟金色金属面板，对开双门立式造型，门缝有黑色竖向拉手槽",
+            "crop_rel": "crops/item_bc4bc965.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_bc4bc965.png",
+            "clean_source_rel": "crops/item_3427b38a_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_3427b38a_ctx.jpg",
+            "clean_rel": "clean/item_bc4bc965.png",
+            "clean_url": "./data/nest_test_v5/clean/item_bc4bc965.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332188,
+            "lux_version": null,
+            "glb_rel": "models_opt/item_bc4bc965.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_bc4bc965.glb",
+            "surface_items": [
+              {
+                "id": "si_item_bc4bc965_1",
+                "name": "仿真花花瓶",
+                "category": "plant",
+                "location": "冰箱顶部左侧",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_bc4bc965_2",
+                "name": "气泡水与冷萃茶",
+                "category": "mug",
+                "location": "冷藏室门架",
+                "status": "充足",
+                "qty": "6瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_bc4bc965_3",
+                "name": "鲜切果蔬保鲜盒",
+                "category": "fruit",
+                "location": "中层保鲜抽屉",
+                "status": "常用",
+                "qty": "3盒",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_ea05ab0d",
+            "type": "dining_table",
+            "label": "黑色长方形餐桌",
+            "color_hex": "#262527",
+            "appearance": "黑色木质桌面配四根方柱桌腿，桌面下方设有一层透明玻璃置物隔板",
+            "zone": "main",
+            "placement_mode": "center",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.15,
+            "center_z_offset": 0.25,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.095,
+            "zm": 0.3,
+            "elevation_m": 0.0,
+            "pos_x": 0.0277,
+            "pos_z": 0.0695,
+            "size_m": [
+              1.35,
+              0.75,
+              0.8
+            ],
+            "world_box_m": [
+              0.8,
+              0.75,
+              1.35
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.2,
+              0.705,
+              0.602
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 4,
+            "seen_in_photos": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "lux3d_prompt": "黑色木质桌面配四根方柱桌腿，桌面下方设有一层透明玻璃置物隔板",
+            "crop_rel": "crops/item_ea05ab0d.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_ea05ab0d.png",
+            "clean_source_rel": "crops/item_36388882_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_36388882_ctx.jpg",
+            "clean_rel": "clean/item_ea05ab0d.png",
+            "clean_url": "./data/nest_test_v5/clean/item_ea05ab0d.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332182,
+            "lux_version": null,
+            "glb_rel": "models_opt/item_ea05ab0d.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_ea05ab0d.glb",
+            "surface_items": [
+              {
+                "id": "si_item_ea05ab0d_1",
+                "name": "蓝色抽纸盒",
+                "category": "tissue",
+                "location": "桌面左前方",
+                "status": "常用",
+                "qty": "1盒",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_ea05ab0d_2",
+                "name": "双层置物架",
+                "category": "storage",
+                "location": "桌面右后方",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_ea05ab0d_3",
+                "name": "陶瓷水杯",
+                "category": "mug",
+                "location": "桌面右侧托盘",
+                "status": "常用",
+                "qty": "2个",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_ea05ab0d_4",
+                "name": "罐装坚果",
+                "category": "snack",
+                "location": "桌面右前方",
+                "status": "余量提醒",
+                "qty": "1罐",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_ea05ab0d_5",
+                "name": "粉色收纳篮",
+                "category": "storage",
+                "location": "桌面最右侧",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              }
+            ]
+          },
+          {
+            "id": "item_cb6a0f0a",
+            "type": "chair",
+            "label": "东侧靠北餐椅",
+            "color_hex": "#282524",
+            "appearance": "深黑色实木餐椅，镂空交叉式靠背与直腿框架，黑色方形坐面",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 2,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": "item_ea05ab0d",
+            "parent_ref": "黑色长方形餐桌",
+            "attach_slot": "around_table",
+            "xm": 0.651,
+            "zm": -0.065,
+            "elevation_m": 0.0,
+            "pos_x": 0.1899,
+            "pos_z": -0.0151,
+            "size_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "world_box_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "rot_deg": 303,
+            "facing": "table",
+            "facing_target": "黑色长方形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.461,
+              0.85,
+              0.483
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 4,
+            "seen_in_photos": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "lux3d_prompt": "深黑色实木餐椅，镂空交叉式靠背与直腿框架，黑色方形坐面",
+            "crop_rel": "crops/item_cb6a0f0a.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_cb6a0f0a.png",
+            "clean_source_rel": "crops/item_a84a68de_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_a84a68de_ctx.jpg",
+            "clean_rel": "clean/item_cb6a0f0a.png",
+            "clean_url": "./data/nest_test_v5/clean/item_cb6a0f0a.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332568,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_cb6a0f0a.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_cb6a0f0a.glb"
+          },
+          {
+            "id": "item_cdfa4030",
+            "type": "chair",
+            "label": "东侧靠南餐椅",
+            "color_hex": "#282524",
+            "appearance": "深黑色实木交叉靠背餐椅，坐面铺有白色花朵造型毛绒坐垫",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": "item_ea05ab0d",
+            "parent_ref": "黑色长方形餐桌",
+            "attach_slot": "around_table",
+            "xm": 0.651,
+            "zm": 0.664,
+            "elevation_m": 0.0,
+            "pos_x": 0.1899,
+            "pos_z": 0.1541,
+            "size_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "world_box_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "rot_deg": 237,
+            "facing": "table",
+            "facing_target": "黑色长方形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.458,
+              0.9,
+              0.491
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 4,
+            "seen_in_photos": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "lux3d_prompt": "深黑色实木交叉靠背餐椅，坐面铺有白色花朵造型毛绒坐垫",
+            "crop_rel": "crops/item_cdfa4030.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_cdfa4030.png",
+            "clean_source_rel": "crops/item_cdfa4030_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_cdfa4030_ctx.jpg",
+            "clean_rel": "clean/item_cdfa4030.png",
+            "clean_url": "./data/nest_test_v5/clean/item_cdfa4030.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8362257,
+            "lux_version": null,
+            "glb_rel": "models_opt/item_cdfa4030.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_cdfa4030.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "surface_items": [
+              {
+                "id": "si_item_cdfa4030_1",
+                "name": "花朵坐垫",
+                "category": "pillow",
+                "location": "餐椅座面",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_94327436",
+            "type": "sofa",
+            "label": "L型布艺沙发",
+            "color_hex": "#6E828B",
+            "appearance": "灰蓝色布艺软包，北侧带贵妃榻延伸段，配平直扶手与可拆靠垫",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_nw",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.45,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.155,
+            "zm": -0.935,
+            "elevation_m": 0.0,
+            "pos_x": -0.3367,
+            "pos_z": -0.2169,
+            "size_m": [
+              2.3,
+              0.82,
+              0.98
+            ],
+            "world_box_m": [
+              0.98,
+              0.82,
+              2.3
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.8,
+              1.058,
+              1.552
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              2,
+              3
+            ],
+            "lux3d_prompt": "灰蓝色布艺软包，北侧带贵妃榻延伸段，配平直扶手与可拆靠垫",
+            "crop_rel": "crops/item_94327436.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_94327436.png",
+            "clean_source_rel": "crops/item_a7f1dd74_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_a7f1dd74_ctx.jpg",
+            "clean_rel": "clean/item_94327436.png",
+            "clean_url": "./data/nest_test_v5/clean/item_94327436.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332405,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_94327436.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_94327436.glb",
+            "mirror_x": true,
+            "surface_items": [
+              {
+                "id": "si_item_94327436_1",
+                "name": "白色大靠枕",
+                "category": "pillow",
+                "location": "沙发靠背上方",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_94327436_2",
+                "name": "黑白格抱枕",
+                "category": "pillow",
+                "location": "沙发座面中部",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_94327436_3",
+                "name": "袋装零食",
+                "category": "snack",
+                "location": "沙发右侧贵妃位",
+                "status": "充足",
+                "qty": "1大袋",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              },
+              {
+                "id": "si_item_94327436_4",
+                "name": "米白亚麻抱枕",
+                "category": "pillow",
+                "location": "贵妃位靠背",
+                "status": "常用",
+                "qty": "2个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_94327436_5",
+                "name": "空调/电视遥控器",
+                "category": "remote",
+                "location": "扶手边几区",
+                "status": "常用",
+                "qty": "2支",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_ccde9378",
+            "type": "chair",
+            "label": "北侧黑色餐椅",
+            "color_hex": "#282524",
+            "appearance": "深黑色实木交叉靠背餐椅，方正木质坐面，放置于沙发贵妃榻旁",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 3,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": "item_ea05ab0d",
+            "parent_ref": "黑色长方形餐桌",
+            "attach_slot": "around_table",
+            "xm": 0.095,
+            "zm": -0.532,
+            "elevation_m": 0.0,
+            "pos_x": 0.0277,
+            "pos_z": -0.1234,
+            "size_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "world_box_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "rot_deg": 0,
+            "facing": "table",
+            "facing_target": "黑色长方形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.442,
+              0.9,
+              0.423
+            ],
+            "is_glass": false,
+            "confidence": 0.92,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              2,
+              3
+            ],
+            "lux3d_prompt": "深黑色实木交叉靠背餐椅，方正木质坐面，放置于沙发贵妃榻旁",
+            "crop_rel": "crops/item_ccde9378.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_ccde9378.png",
+            "clean_source_rel": "crops/item_ccde9378_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_ccde9378_ctx.jpg",
+            "clean_rel": "clean/item_ccde9378.png",
+            "clean_url": "./data/nest_test_v5/clean/item_ccde9378.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8362274,
+            "lux_version": null,
+            "glb_rel": "models_opt/item_ccde9378.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_ccde9378.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.986,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "surface_items": [
+              {
+                "id": "si_item_ccde9378_1",
+                "name": "手提购物袋",
+                "category": "storage",
+                "location": "餐椅座面右侧",
+                "status": "充足",
+                "qty": "1袋",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              }
+            ]
+          },
+          {
+            "id": "item_96315689",
+            "type": "other",
+            "label": "壁挂式空调",
+            "color_hex": "#EAE7DC",
+            "appearance": "米白色塑料机身长条形分体壁挂空调室内机，高挂于墙面",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "west",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.68,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.535,
+            "zm": -1.112,
+            "elevation_m": 1.9,
+            "pos_x": -0.4475,
+            "pos_z": -0.258,
+            "size_m": [
+              0.9,
+              0.3,
+              0.22
+            ],
+            "world_box_m": [
+              0.22,
+              0.3,
+              0.9
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.9,
+              0.34,
+              0.303
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              2
+            ],
+            "lux3d_prompt": "米白色塑料机身长条形分体壁挂空调室内机，高挂于墙面",
+            "crop_rel": "crops/item_96315689.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_96315689.png",
+            "clean_source_rel": "crops/item_fd6c584c_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_fd6c584c_ctx.jpg",
+            "clean_rel": "clean/item_96315689.png",
+            "clean_url": "./data/nest_test_v5/clean/item_96315689.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353791,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_96315689.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_96315689.glb"
+          },
+          {
+            "id": "item_67551c9e",
+            "type": "chair",
+            "label": "南侧黑色餐椅",
+            "color_hex": "#282524",
+            "appearance": "深黑色实木餐椅，镂空交叉靠背设计，硬质方形坐面",
+            "zone": "main",
+            "placement_mode": "attached",
+            "mount": "floor",
+            "wall_anchor": "center",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": "item_ea05ab0d",
+            "parent_ref": "黑色长方形餐桌",
+            "attach_slot": "around_table",
+            "xm": 0.095,
+            "zm": 1.131,
+            "elevation_m": 0.0,
+            "pos_x": 0.0277,
+            "pos_z": 0.2624,
+            "size_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "world_box_m": [
+              0.45,
+              0.88,
+              0.46
+            ],
+            "rot_deg": 180,
+            "facing": "table",
+            "facing_target": "黑色长方形餐桌",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.439,
+              0.85,
+              0.422
+            ],
+            "is_glass": false,
+            "confidence": 0.91,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              1
+            ],
+            "lux3d_prompt": "深黑色实木餐椅，镂空交叉靠背设计，硬质方形坐面",
+            "crop_rel": "crops/item_67551c9e.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_67551c9e.png",
+            "clean_source_rel": "crops/item_67551c9e_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_67551c9e_ctx.jpg",
+            "clean_rel": "clean/item_67551c9e.png",
+            "clean_url": "./data/nest_test_v5/clean/item_67551c9e.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8362261,
+            "lux_version": null,
+            "glb_rel": "models_opt/item_67551c9e.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_67551c9e.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "surface_items": [
+              {
+                "id": "si_item_67551c9e_1",
+                "name": "快递纸盒",
+                "category": "storage",
+                "location": "餐椅座面",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 58.9
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "画面正前方为墨绿色西墙（靠放灰色沙发与空调），右侧白色墙体偏西侧有外窗（对应户型图北墙西段外侧凹槽处漏画的外窗），左侧前景可见靠南墙摆放的冰箱侧面",
+            "confidence": 0.92
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "画面正前方白色墙体左侧可见通往卧室B的平开房门（门洞位于南墙偏东侧，门扇向南内开入卧室B，门内可见床与窗帘），门右侧靠南墙摆放双开门冰箱，最右侧转角连接墨绿色西墙",
+            "confidence": 0.96
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "镜头近乎正对墨绿色西墙（可见完整沙发、餐桌及空调），左侧为靠南墙摆放的冰箱与西南角，右侧白色北墙可见斜向透视的外窗",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 3,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "机位与photo_index 2相近，正前方为墨绿色西墙与沙发餐桌，左上角可见靠南墙的冰箱，右上角可见北墙西侧外窗窗框",
+            "confidence": 0.94
+          }
+        ],
+        "audit": {
+          "notes": [
+            "全部8件家具均真实存在于客厅主区（main），无幻觉及重复项。",
+            "照片1南墙门洞内可见的床属于隔壁卧室B，未混入当前房间。",
+            "北墙偏西靠近西北角存在木框推拉窗及灰色卷帘，房间无连通阳台子区。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 8
+        }
+      },
+      "bbox_1000": [
+        380.6,
+        322.5,
+        525.6,
+        574.2
+      ],
+      "est_width_m": 2.9,
+      "est_depth_m": 4.1,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_71d43ac1",
+      "name": "玄关",
+      "category": "entry",
+      "icon": "🚪",
+      "rel_x": 1.05,
+      "rel_z": -2.37,
+      "width_m": 0.65,
+      "depth_m": 1.31,
+      "window_dir": "NONE",
+      "openings": [
+        {
+          "kind": "entry_door",
+          "wall": "east",
+          "offset": 0.457,
+          "width_m": 0.8,
+          "target": "户外",
+          "render_leaf": true
+        },
+        {
+          "kind": "open_passage",
+          "wall": "west",
+          "offset": 0.5,
+          "width_m": 1.0,
+          "target": "客厅",
+          "render_leaf": true
+        }
+      ],
+      "photos": [],
+      "scene_spec": null,
+      "bbox_1000": [
+        525.6,
+        322.5,
+        559.4,
+        399.2
+      ],
+      "est_width_m": 0.7,
+      "est_depth_m": 1.0
+    },
+    {
+      "id": "rm_ab8f8b2c",
+      "name": "卫生间",
+      "category": "bath",
+      "icon": "🛁",
+      "rel_x": 1.78,
+      "rel_z": -0.82,
+      "width_m": 1.85,
+      "depth_m": 1.79,
+      "window_dir": "N",
+      "openings": [
+        {
+          "kind": "window",
+          "wall": "north",
+          "offset": 0.5,
+          "width_m": 1.1,
+          "target": "户外",
+          "render_leaf": true
+        },
+        {
+          "kind": "door",
+          "wall": "south",
+          "offset": 0.333,
+          "width_m": 0.8,
+          "target": "过道",
+          "render_leaf": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_clean_rm_ab8f8b2c",
+          "name": "卫生间_3D实景视图.jpg",
+          "rel_path": "docs/shots/clean_rm_ab8f8b2c.jpg",
+          "url": "./data/nest_test_v5/docs/shots/clean_rm_ab8f8b2c.jpg"
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#E5E3DF",
+        "floor_hex": "#B8B3AA",
+        "align_summary": "卫生间北墙高处有推拉窗且偏西靠西北角包管柱安装坐便器，西墙偏北装壁挂毛巾架，东北角装双层转角置物架，东墙高处横装电热水器及偏南侧壁挂收纳篮，南墙靠东南角安装黑色淋浴花洒立柱、西侧为通往过道的木框房门。",
+        "wall_features_detected": {
+          "windows": [
+            {
+              "wall": "north",
+              "offset": 0.55,
+              "width_m": 0.9,
+              "has_curtain": false,
+              "evidence": "照片0、3、5均可见北墙高处存在铝合金推拉外窗，无窗帘"
+            }
+          ],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_b8eb69dd",
+            "type": "toilet",
+            "label": "白色连体坐便器",
+            "color_hex": "#F4F5F7",
+            "appearance": "白色陶瓷连体坐便器，弧形翻盖设计，搭配浅紫色布艺马桶垫圈",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "north",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.2,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.131,
+            "zm": -0.485,
+            "elevation_m": 0.0,
+            "pos_x": -0.0708,
+            "pos_z": -0.2709,
+            "size_m": [
+              0.4,
+              0.75,
+              0.68
+            ],
+            "world_box_m": [
+              0.4,
+              0.75,
+              0.68
+            ],
+            "rot_deg": 0,
+            "facing": "south",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.45,
+              0.823,
+              0.731
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 3,
+            "seen_in_photos": [
+              3,
+              4,
+              5
+            ],
+            "lux3d_prompt": "白色陶瓷连体坐便器，弧形翻盖设计，搭配浅紫色布艺马桶垫圈",
+            "crop_rel": "crops/item_b8eb69dd.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_b8eb69dd.png",
+            "clean_source_rel": "crops/item_b8f89349_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_b8f89349_ctx.jpg",
+            "clean_rel": "clean/item_b8eb69dd.png",
+            "clean_url": "./data/nest_test_v5/clean/item_b8eb69dd.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8333448,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_b8eb69dd.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_b8eb69dd.glb"
+          },
+          {
+            "id": "item_808cc414",
+            "type": "other",
+            "label": "壁挂电热水器",
+            "color_hex": "#EAE3CF",
+            "appearance": "奶白色横卧圆筒形储水式电热水器，正面带黑色饰条与数显控制面板",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "east",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.08,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.43,
+            "zm": -0.107,
+            "elevation_m": 1.9,
+            "pos_x": 0.3405,
+            "pos_z": -0.0598,
+            "size_m": [
+              0.85,
+              0.45,
+              0.45
+            ],
+            "world_box_m": [
+              0.85,
+              0.45,
+              0.45
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.44,
+              0.85,
+              0.527
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "奶白色横卧圆筒形储水式电热水器，正面带黑色饰条与数显控制面板",
+            "crop_rel": "crops/item_808cc414.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_808cc414.png",
+            "clean_source_rel": "crops/item_18051015_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_18051015_ctx.jpg",
+            "clean_rel": "clean/item_808cc414.png",
+            "clean_url": "./data/nest_test_v5/clean/item_808cc414.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8333338,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_808cc414.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_808cc414.glb",
+            "pose_audit": {
+              "round": 1,
+              "reason": "壁挂电热水器锚定东墙，正面应朝西（朝向房间可用空间）；当前 facing=south 与东墙挂装逻辑矛盾，实景真图（图8/9/10）中热水器安装在东墙北段，出水面朝向浴室中心（即朝西），需逆时针转 -90° 修正。",
+              "confidence": 0.82,
+              "ts": 1795034843,
+              "suggestion": null
+            }
+          },
+          {
+            "id": "item_723227d0",
+            "type": "other",
+            "label": "黑色淋浴花洒套装",
+            "color_hex": "#1F2022",
+            "appearance": "黑色金属立柱淋浴花洒，顶部为圆形大顶喷，下部配银色手持花洒与软管",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.62,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.63,
+            "zm": 0.35,
+            "elevation_m": 0.45,
+            "pos_x": 0.3405,
+            "pos_z": 0.1955,
+            "size_m": [
+              0.35,
+              1.25,
+              0.45
+            ],
+            "world_box_m": [
+              0.35,
+              1.25,
+              0.45
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.246,
+              0.95,
+              0.252
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "黑色金属立柱淋浴花洒，顶部为圆形大顶喷，下部配银色手持花洒与软管",
+            "crop_rel": "crops/item_723227d0.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_723227d0.png",
+            "clean_source_rel": "crops/item_e28aa942_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_e28aa942_ctx.jpg",
+            "clean_rel": "clean/item_723227d0.png",
+            "clean_url": "./data/nest_test_v5/clean/item_723227d0.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8333039,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_723227d0.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_723227d0.glb",
+            "pose_audit": {
+              "round": 1,
+              "reason": "实景真图（图8/9/10）显示黑色花洒立柱紧贴东墙南段（与热水器同侧、热水器偏南），而3D模型中锚定南墙 xm=0.422，zm=0.6。真图中花洒柱明显靠东墙而非南墙，wall_anchor 应改为 east，along_wall_offset 约 0.55（偏南）；朝向 facing=north 保持不变（使用者朝",
+              "confidence": 0.75,
+              "ts": 1795034843,
+              "suggestion": {
+                "wall_anchor": "east",
+                "along_wall_offset": 0.55
+              }
+            }
+          },
+          {
+            "id": "item_211f04ab",
+            "type": "other",
+            "label": "黑色壁挂毛巾架",
+            "color_hex": "#222326",
+            "appearance": "黑色哑光金属折叠式双层浴巾毛巾架，下带多排挂钩与横杆",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "west",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.3,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.735,
+            "zm": -0.165,
+            "elevation_m": 1.45,
+            "pos_x": -0.3973,
+            "pos_z": -0.0922,
+            "size_m": [
+              0.55,
+              0.22,
+              0.24
+            ],
+            "world_box_m": [
+              0.24,
+              0.22,
+              0.55
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.6,
+              0.238,
+              0.197
+            ],
+            "is_glass": false,
+            "confidence": 0.92,
+            "views": 3,
+            "seen_in_photos": [
+              3,
+              4,
+              5
+            ],
+            "lux3d_prompt": "黑色哑光金属折叠式双层浴巾毛巾架，下带多排挂钩与横杆",
+            "crop_rel": "crops/item_211f04ab.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_211f04ab.png",
+            "clean_source_rel": "crops/item_211f04ab_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_211f04ab_ctx.jpg",
+            "clean_rel": "clean/item_211f04ab.png",
+            "clean_url": "./data/nest_test_v5/clean/item_211f04ab.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353885,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_211f04ab.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_211f04ab.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.988,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_211f04ab_1",
+                "name": "透明收纳袋",
+                "category": "storage",
+                "location": "下层挂钩处",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              }
+            ]
+          },
+          {
+            "id": "item_c9ab359b",
+            "type": "other",
+            "label": "双层转角置物架",
+            "color_hex": "#212225",
+            "appearance": "黑色金属扇形双层转角壁挂置物架，带护栏与底部拖把挂钩",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_ne",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.0,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.705,
+            "zm": -0.715,
+            "elevation_m": 0.0,
+            "pos_x": 0.3811,
+            "pos_z": -0.3994,
+            "size_m": [
+              0.3,
+              0.42,
+              0.22
+            ],
+            "world_box_m": [
+              0.3,
+              0.42,
+              0.22
+            ],
+            "rot_deg": 0,
+            "facing": "room_center",
+            "facing_target": "",
+            "glb_fix_deg": 270.0,
+            "glb_aligned_size": [
+              0.55,
+              0.58,
+              0.54
+            ],
+            "is_glass": false,
+            "confidence": 0.9,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              4,
+              5
+            ],
+            "lux3d_prompt": "黑色金属扇形双层转角壁挂置物架，带护栏与底部拖把挂钩",
+            "crop_rel": "crops/item_c9ab359b.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_c9ab359b.png",
+            "clean_source_rel": "crops/item_a1b68cbe_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_a1b68cbe_ctx.jpg",
+            "clean_rel": "clean/item_c9ab359b.png",
+            "clean_url": "./data/nest_test_v5/clean/item_c9ab359b.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8333574,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_c9ab359b.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_c9ab359b.glb",
+            "surface_items": [
+              {
+                "id": "si_item_c9ab359b_1",
+                "name": "紫色按压瓶",
+                "category": "skincare",
+                "location": "上层中部",
+                "status": "常用",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_c9ab359b_2",
+                "name": "白色洗护瓶",
+                "category": "skincare",
+                "location": "上层右侧",
+                "status": "常用",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_c9ab359b_3",
+                "name": "蓝色按压瓶",
+                "category": "skincare",
+                "location": "下层右侧",
+                "status": "充足",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_c9ab359b_4",
+                "name": "白瓶洗护液",
+                "category": "skincare",
+                "location": "下层左侧",
+                "status": "常用",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_c9ab359b_5",
+                "name": "胶棉拖把",
+                "category": "storage",
+                "location": "置物架挂钩",
+                "status": "常用",
+                "qty": "2把",
+                "source": "实景视觉登记",
+                "photo_idx": 5
+              }
+            ]
+          },
+          {
+            "id": "item_83223353",
+            "type": "other",
+            "label": "壁挂铁艺收纳篮",
+            "color_hex": "#28292C",
+            "appearance": "黑色网格铁艺壁挂长方形收纳篮，顶部一体成型带金属挂钩板",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "east",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.63,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.785,
+            "zm": 0.66,
+            "elevation_m": 1.45,
+            "pos_x": 0.4243,
+            "pos_z": 0.3687,
+            "size_m": [
+              0.32,
+              0.16,
+              0.14
+            ],
+            "world_box_m": [
+              0.14,
+              0.16,
+              0.32
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.45,
+              0.317,
+              0.186
+            ],
+            "is_glass": false,
+            "confidence": 0.88,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "黑色网格铁艺壁挂长方形收纳篮，顶部一体成型带金属挂钩板",
+            "crop_rel": "crops/item_83223353.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_83223353.png",
+            "clean_source_rel": "crops/item_83223353_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_83223353_ctx.jpg",
+            "clean_rel": "clean/item_83223353.png",
+            "clean_url": "./data/nest_test_v5/clean/item_83223353.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353836,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_83223353.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_83223353.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "pose_audit": {
+              "round": 1,
+              "reason": "壁挂铁艺收纳篮锚定东墙、facing=west 正确，实景真图（图9/10）可见铁艺篮挂于东墙花洒旁，篮口朝西入室，方向无需改动，位置基本吻合。",
+              "confidence": 0.8,
+              "ts": 1795034843,
+              "suggestion": null
+            },
+            "surface_items": [
+              {
+                "id": "si_item_83223353_1",
+                "name": "白色收纳袋",
+                "category": "storage",
+                "location": "收纳篮内",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              }
+            ]
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 37.0
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "画面左侧可见北墙高处的推拉窗及贴纸，东北角有带绿色拖把的角架，正前方及偏右为东墙的热水器、水阀管道与火烈鸟贴纸，最右侧边缘可见南墙的竖直管道",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "画面左侧为东墙的热水器底部、黑色网篮及花束贴纸，东南角右侧为南墙的黑色淋浴花洒立柱与竖直管道，东墙在画面中占主导且透视更正",
+            "confidence": 0.88
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "画面正前方为东墙的热水器、管道及火烈鸟和花束贴纸，右侧过东南角为南墙的黑色花洒立柱、竖直管道及最右侧的木质门框",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 3,
+            "front_wall": "north",
+            "left_wall": "west",
+            "right_wall": "east",
+            "back_wall": "south",
+            "anchor_evidence": "画面正前方为北墙高处的推拉窗、贴纸及马桶，左侧为西墙的开关面板、黑色毛巾架及西北角包管柱",
+            "confidence": 0.96
+          },
+          {
+            "photo_index": 4,
+            "front_wall": "north",
+            "left_wall": "west",
+            "right_wall": "east",
+            "back_wall": "south",
+            "anchor_evidence": "画面正前方为北墙下的马桶，左侧为西墙的黑色毛巾架与西北角包管柱，最右侧可见东北角架子上的绿色拖把及东墙边缘",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 5,
+            "front_wall": "north",
+            "left_wall": "west",
+            "right_wall": "east",
+            "back_wall": "south",
+            "anchor_evidence": "画面正前方为北墙的推拉窗、贴纸及马桶，左侧为西墙的黑色毛巾架，右侧为东墙的热水器管道与火烈鸟贴纸，最右边缘可见镜头旁南墙门洞的木质门套",
+            "confidence": 0.95
+          }
+        ],
+        "audit": {
+          "notes": [
+            "已对照局部户型图与6张实景照完成全部6件卫浴设施的方位与贴墙关系复核，均真实存在且无重复。",
+            "主要修正了花洒套装、壁挂毛巾架、转角置物架与铁艺收纳篮的mount属性（由floor修正为wall_mid），并微调北墙外窗中心偏移量至0.4m使其与东北角实景边界吻合。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 6
+        }
+      },
+      "bbox_1000": [
+        535.0,
+        399.2,
+        617.5,
+        497.5
+      ],
+      "est_width_m": 1.6,
+      "est_depth_m": 1.8,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_468f7b70",
+      "name": "过道",
+      "category": "other",
+      "icon": "🏠",
+      "rel_x": 1.71,
+      "rel_z": 0.67,
+      "width_m": 1.98,
+      "depth_m": 1.21,
+      "window_dir": "NONE",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "west",
+          "offset": 0.448,
+          "width_m": 0.78,
+          "target": "客厅",
+          "render_leaf": false
+        },
+        {
+          "kind": "door",
+          "wall": "north",
+          "offset": 0.312,
+          "width_m": 0.8,
+          "target": "卫生间",
+          "render_leaf": false
+        },
+        {
+          "kind": "door",
+          "wall": "south",
+          "offset": 0.297,
+          "width_m": 0.8,
+          "target": "厨房",
+          "render_leaf": true
+        }
+      ],
+      "photos": [],
+      "scene_spec": null,
+      "bbox_1000": [
+        537.5,
+        510.0,
+        617.5,
+        574.2
+      ],
+      "est_width_m": 1.6,
+      "est_depth_m": 0.9
+    },
+    {
+      "id": "rm_33a4ae64",
+      "name": "厨房",
+      "category": "kitchen",
+      "icon": "🍳",
+      "rel_x": 1.78,
+      "rel_z": 3.39,
+      "width_m": 1.85,
+      "depth_m": 4.22,
+      "window_dir": "S",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "north",
+          "offset": 0.318,
+          "width_m": 0.8,
+          "target": "过道",
+          "render_leaf": false
+        },
+        {
+          "kind": "window",
+          "wall": "south",
+          "offset": 0.534,
+          "width_m": 0.6,
+          "target": "户外",
+          "render_leaf": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_clean_rm_33a4ae64",
+          "name": "厨房_3D实景视图.jpg",
+          "rel_path": "docs/shots/clean_rm_33a4ae64.jpg",
+          "url": "./data/nest_test_v5/docs/shots/clean_rm_33a4ae64.jpg"
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#EDEDEB",
+        "floor_hex": "#E6E6E4",
+        "align_summary": "以北墙推拉门洞及门外过道洗手台、南墙居中外窗为锚点定标，厨房呈南北狭长布局，东墙与南墙连成L形红色橱柜操作台，东墙上方安装红色吊柜与黑色侧吸式油烟机，西墙无固定家具。",
+        "wall_features_detected": {
+          "windows": [
+            {
+              "wall": "south",
+              "offset": 0.12,
+              "width_m": 1.0,
+              "has_curtain": false,
+              "evidence": "照片3正前方南墙居中可见双扇铝合金推拉外窗，无窗帘"
+            }
+          ],
+          "subzone_split": null
+        },
+        "furniture": [
+          {
+            "id": "item_16bd0ed5",
+            "type": "kitchen_counter",
+            "label": "东墙橱柜操作台",
+            "color_hex": "#D95D52",
+            "appearance": "珊瑚红色烤漆柜门配银色弧形拉手，不锈钢台面嵌双槽水盆与燃气灶",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.21,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.555,
+            "zm": 0.029,
+            "elevation_m": 0.0,
+            "pos_x": 0.3,
+            "pos_z": 0.007,
+            "size_m": [
+              3.8,
+              0.82,
+              0.6
+            ],
+            "world_box_m": [
+              0.6,
+              0.82,
+              3.8
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.4,
+              1.523,
+              2.4
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 4,
+            "seen_in_photos": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "lux3d_prompt": "珊瑚红色烤漆柜门配银色弧形拉手，不锈钢台面嵌双槽水盆与燃气灶",
+            "crop_rel": "crops/item_f87a52da.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_f87a52da.png",
+            "clean_source_rel": "crops/item_72ac55f6_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_72ac55f6_ctx.jpg",
+            "clean_rel": "clean/item_f87a52da.png",
+            "clean_url": "./data/nest_test_v5/clean/item_f87a52da.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8353984,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_16bd0ed5.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_16bd0ed5.glb",
+            "surface_items": [
+              {
+                "id": "si_item_16bd0ed5_1",
+                "name": "电热水壶",
+                "category": "appliance",
+                "location": "台面中部",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_16bd0ed5_2",
+                "name": "炒锅",
+                "category": "cookware",
+                "location": "台面右侧灶台",
+                "status": "常用",
+                "qty": "2口",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_16bd0ed5_3",
+                "name": "陶瓷碗盘",
+                "category": "cookware",
+                "location": "台面中左侧",
+                "status": "充足",
+                "qty": "1摞",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_16bd0ed5_4",
+                "name": "砧板",
+                "category": "cookware",
+                "location": "灶台左侧台面",
+                "status": "常用",
+                "qty": "1块",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_16bd0ed5_5",
+                "name": "筷笼",
+                "category": "storage",
+                "location": "水槽右侧台面",
+                "status": "充足",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 2
+              }
+            ]
+          },
+          {
+            "id": "item_ba56ec1f",
+            "type": "wall_cabinet",
+            "label": "东墙红色吊柜",
+            "color_hex": "#D95D52",
+            "appearance": "珊瑚红色烤漆壁挂吊柜，含一扇铝框磨砂玻璃上翻门，配银色拉手",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "east",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.21,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.68,
+            "zm": -0.14,
+            "elevation_m": 1.45,
+            "pos_x": 0.3676,
+            "pos_z": -0.0332,
+            "size_m": [
+              3.8,
+              0.75,
+              0.35
+            ],
+            "world_box_m": [
+              0.35,
+              0.75,
+              3.8
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.8,
+              0.541,
+              0.253
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              3
+            ],
+            "lux3d_prompt": "珊瑚红色烤漆壁挂吊柜，含一扇铝框磨砂玻璃上翻门，配银色拉手",
+            "crop_rel": "crops/item_ba56ec1f.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_ba56ec1f.png",
+            "clean_source_rel": "crops/item_270de8e3_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_270de8e3_ctx.jpg",
+            "clean_rel": "clean/item_ba56ec1f.png",
+            "clean_url": "./data/nest_test_v5/clean/item_ba56ec1f.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8357351,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_ba56ec1f.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_ba56ec1f.glb",
+            "lux_error": null,
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_ba56ec1f_1",
+                "name": "现磨黑胡椒粒",
+                "category": "seasoning",
+                "location": "壁挂柜下层",
+                "status": "充足",
+                "qty": "1罐",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_ba56ec1f_2",
+                "name": "意面与干货密封罐",
+                "category": "snack",
+                "location": "壁挂柜中层",
+                "status": "充足",
+                "qty": "3罐",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_ba56ec1f_3",
+                "name": "备用厨房纸卷",
+                "category": "tissue",
+                "location": "壁挂柜上层",
+                "status": "充足",
+                "qty": "4卷",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_25d4413c",
+            "type": "kitchen_counter",
+            "label": "南墙橱柜操作台",
+            "color_hex": "#D95D52",
+            "appearance": "珊瑚红色双开烤漆柜门配银色弧形拉手，不锈钢台面与东侧台面转角相连",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.3,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.25,
+            "zm": 1.74,
+            "elevation_m": 0.0,
+            "pos_x": 0.1351,
+            "pos_z": 0.4123,
+            "size_m": [
+              1.25,
+              0.82,
+              0.6
+            ],
+            "world_box_m": [
+              1.25,
+              0.82,
+              0.6
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.4,
+              1.653,
+              2.329
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 2,
+            "seen_in_photos": [
+              2,
+              3
+            ],
+            "lux3d_prompt": "珊瑚红色双开烤漆柜门配银色弧形拉手，不锈钢台面与东侧台面转角相连",
+            "crop_rel": "crops/item_25d4413c.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_25d4413c.png",
+            "clean_source_rel": "crops/item_25d4413c_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_25d4413c_ctx.jpg",
+            "clean_rel": "clean/item_25d4413c.png",
+            "clean_url": "./data/nest_test_v5/clean/item_25d4413c.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8356899,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_25d4413c.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_25d4413c.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.936,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_25d4413c_1",
+                "name": "电饭煲",
+                "category": "appliance",
+                "location": "台面右侧",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_25d4413c_2",
+                "name": "空气炸锅",
+                "category": "appliance",
+                "location": "台面中右侧",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_25d4413c_3",
+                "name": "小煮锅",
+                "category": "cookware",
+                "location": "台面左侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              },
+              {
+                "id": "si_item_25d4413c_4",
+                "name": "食用油",
+                "category": "seasoning",
+                "location": "台面最左侧",
+                "status": "充足",
+                "qty": "2瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 3
+              }
+            ]
+          },
+          {
+            "id": "item_ad02a204",
+            "type": "other",
+            "label": "侧吸式油烟机",
+            "color_hex": "#222428",
+            "appearance": "黑色钢化玻璃斜面侧吸式抽油烟机，嵌装在东墙吊柜下方与灶台正上方",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "east",
+            "wall_slot_order": 1,
+            "along_wall_offset": 0.94,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.66,
+            "zm": 1.28,
+            "elevation_m": 1.38,
+            "pos_x": 0.3568,
+            "pos_z": 0.3033,
+            "size_m": [
+              0.9,
+              0.5,
+              0.4
+            ],
+            "world_box_m": [
+              0.4,
+              0.5,
+              0.9
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.95,
+              0.95,
+              0.505
+            ],
+            "is_glass": true,
+            "confidence": 0.92,
+            "views": 1,
+            "seen_in_photos": [
+              3
+            ],
+            "lux3d_prompt": "黑色钢化玻璃斜面侧吸式抽油烟机，嵌装在东墙吊柜下方与灶台正上方",
+            "crop_rel": "crops/item_ad02a204.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_ad02a204.png",
+            "clean_source_rel": "crops/item_ad02a204_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_ad02a204_ctx.jpg",
+            "clean_rel": "clean/item_ad02a204.png",
+            "clean_url": "./data/nest_test_v5/clean/item_ad02a204.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8356858,
+            "lux_version": "G1",
+            "glb_rel": "models_opt/item_ad02a204.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_ad02a204.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 32.6
+        },
+        "subzone_split": null,
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "相机位于厨房北侧过道西端朝东拍摄，正前方东侧墙面为洗手台与镜子，右侧为厨房北墙推拉门洞及门旁卧室B木门框，透过厨房门洞可见厨房东墙的红色橱柜与水槽",
+            "confidence": 0.9
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "与第0张同机位略仰拍，正前方东侧墙面为洗手台与吊柜，右侧为厨房北墙推拉门洞及卧室B房门，透过门洞可见厨房东墙的红色吊柜与水槽",
+            "confidence": 0.9
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "相机位于厨房北墙门洞处朝南俯拍室内，左下角可见北墙木质门框，正前方南墙为L形拐角台面（上置空气炸锅和电饭煲，顶部可见南窗下沿），左侧为东墙长台面（水槽、灶台与红色地柜），右侧为西墙及地面杂物",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 3,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "相机在厨房北侧朝南平视拍摄，正前方南墙居中可见通往户外的外窗及下方L形台面，左侧为东墙红色上下橱柜、水槽、灶台与油烟机，右侧为西墙白瓷砖墙面",
+            "confidence": 0.98
+          }
+        ],
+        "audit": {
+          "notes": [
+            "照片0和照片1前景中的洗手台及镜中反射的冰箱均位于厨房北门外的过道/卫生间区域，不属于厨房本间，上一轮未误识别，核查准确。",
+            "厨房西墙无固定大型家具，仅地面堆放临时纸箱、水桶及垃圾桶。",
+            "修正了东墙地柜、吊柜与南墙贴合的沿墙偏移量，以及油烟机靠近南端灶台的沿墙位置，并将南墙外窗偏移微调至-0.18m以避开东墙橱柜。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 4
+        }
+      },
+      "bbox_1000": [
+        535.0,
+        574.2,
+        617.5,
+        820.8
+      ],
+      "est_width_m": 1.6,
+      "est_depth_m": 3.8,
+      "subzone_split": null
+    },
+    {
+      "id": "rm_dce027de",
+      "name": "卧室B",
+      "category": "bedroom",
+      "icon": "🛏️",
+      "rel_x": -0.93,
+      "rel_z": 3.91,
+      "width_m": 3.55,
+      "depth_m": 5.27,
+      "window_dir": "S",
+      "openings": [
+        {
+          "kind": "door",
+          "wall": "north",
+          "offset": 0.815,
+          "width_m": 0.8,
+          "target": "客厅",
+          "render_leaf": true
+        },
+        {
+          "kind": "window",
+          "wall": "south",
+          "offset": 0.58,
+          "width_m": 2.4,
+          "target": "户外",
+          "render_leaf": true,
+          "backfilled": true
+        }
+      ],
+      "photos": [
+        {
+          "id": "ph_clean_rm_dce027de",
+          "name": "卧室B_3D实景视图.jpg",
+          "rel_path": "docs/shots/clean_rm_dce027de.jpg",
+          "url": "./data/nest_test_v5/docs/shots/clean_rm_dce027de.jpg"
+        }
+      ],
+      "scene_spec": {
+        "wall_hex": "#F2F0EC",
+        "floor_hex": "#C89D6C",
+        "align_summary": "北墙西侧衣柜与东侧房门定位东西方向，西墙墨绿主墙依次排布床铺与书桌，东墙壁挂电视正对床铺，南端木质垭口隔出含储物柜、洗衣机与外窗的连通阳台。",
+        "wall_features_detected": {
+          "windows": [
+            {
+              "wall": "south",
+              "offset": 0.58,
+              "width_m": 2.4,
+              "has_curtain": true,
+              "evidence": "照片2、3、4可见南侧阳台墙面上半部设有大面推拉外窗，垭口处装有浅蓝灰色落地窗帘"
+            },
+            {
+              "wall": "east",
+              "offset": 0.85,
+              "width_m": 1.1,
+              "has_curtain": false,
+              "evidence": "照片4可见东墙南端（厨房南侧外墙段）洗衣机上方设有推拉外窗"
+            }
+          ],
+          "subzone_split": {
+            "has_connected_balcony": true,
+            "balcony_end": "south",
+            "ratio": 0.25,
+            "divider_kind": "open_arch",
+            "has_curtain": true,
+            "evidence": "照片2、3、4、6可见南端由原木门套垭口与浅蓝灰色双侧窗帘半隔断出生活阳台，内设洗衣机、晾衣架与阳台柜"
+          }
+        },
+        "furniture": [
+          {
+            "id": "item_7b7976bf",
+            "type": "desk",
+            "label": "白色带架书桌",
+            "color_hex": "#EBE7E0",
+            "appearance": "白色金属方管桌腿配浅木纹桌面，台面带白色多层分格置物架",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 2,
+            "along_wall_offset": 0.23,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.405,
+            "zm": 0.25,
+            "elevation_m": 0.0,
+            "pos_x": -0.3958,
+            "pos_z": 0.0474,
+            "size_m": [
+              1.2,
+              1.52,
+              0.6
+            ],
+            "world_box_m": [
+              0.6,
+              1.52,
+              1.2
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.073,
+              1.4,
+              0.385
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              1,
+              2
+            ],
+            "lux3d_prompt": "白色金属方管桌腿配浅木纹桌面，台面带白色多层分格置物架",
+            "crop_rel": "crops/item_7b7976bf.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_7b7976bf.png",
+            "clean_source_rel": "crops/item_40699446_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_40699446_ctx.jpg",
+            "clean_rel": "clean/item_7b7976bf.png",
+            "clean_url": "./data/nest_test_v5/clean/item_7b7976bf.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332708,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_7b7976bf.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_7b7976bf.glb",
+            "surface_items": [
+              {
+                "id": "si_item_7b7976bf_1",
+                "name": "保湿喷雾",
+                "category": "skincare",
+                "location": "桌面右侧",
+                "status": "充足",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_7b7976bf_2",
+                "name": "抽纸盒",
+                "category": "tissue",
+                "location": "桌面左侧",
+                "status": "常用",
+                "qty": "1盒",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_7b7976bf_3",
+                "name": "护肤喷雾",
+                "category": "skincare",
+                "location": "书架右上格",
+                "status": "充足",
+                "qty": "3瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_7b7976bf_4",
+                "name": "桌面加湿器",
+                "category": "appliance",
+                "location": "书架右下格",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              },
+              {
+                "id": "si_item_7b7976bf_5",
+                "name": "笔记本",
+                "category": "notebook",
+                "location": "桌面中左侧",
+                "status": "常用",
+                "qty": "2本",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              }
+            ]
+          },
+          {
+            "id": "item_27054600",
+            "type": "bed",
+            "label": "双人床",
+            "color_hex": "#E3DFD8",
+            "appearance": "浅灰白木纹平板床头，搭配铺有浅青格纹床单的双人床垫",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 1,
+            "along_wall_offset": -0.38,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.68,
+            "zm": -1.231,
+            "elevation_m": 0.0,
+            "pos_x": -0.1915,
+            "pos_z": -0.2335,
+            "size_m": [
+              1.55,
+              0.92,
+              2.05
+            ],
+            "world_box_m": [
+              2.05,
+              0.92,
+              1.55
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.0,
+              1.129,
+              1.995
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 3,
+            "seen_in_photos": [
+              0,
+              6,
+              7
+            ],
+            "lux3d_prompt": "浅灰白木纹平板床头，搭配铺有浅青格纹床单的双人床垫",
+            "crop_rel": "crops/item_27054600.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_27054600.png",
+            "clean_source_rel": "crops/item_70a72e1d_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_70a72e1d_ctx.jpg",
+            "clean_rel": "clean/item_27054600.png",
+            "clean_url": "./data/nest_test_v5/clean/item_27054600.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332789,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_27054600.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_27054600.glb"
+          },
+          {
+            "id": "item_146a145e",
+            "type": "drying_rack",
+            "label": "白色落地晾衣架",
+            "color_hex": "#E6E7E5",
+            "appearance": "白色细金属管落地折叠晾衣架，底部带弯管防滑支脚与横杆",
+            "zone": "balcony",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "south",
+            "wall_slot_order": 0,
+            "along_wall_offset": 0.08,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 0.2,
+            "zm": 2.305,
+            "elevation_m": 0.0,
+            "pos_x": 0.0563,
+            "pos_z": 0.4374,
+            "size_m": [
+              1.35,
+              1.45,
+              0.52
+            ],
+            "world_box_m": [
+              1.35,
+              1.45,
+              0.52
+            ],
+            "rot_deg": 180,
+            "facing": "north",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.8,
+              2.471,
+              1.071
+            ],
+            "is_glass": false,
+            "confidence": 0.93,
+            "views": 3,
+            "seen_in_photos": [
+              2,
+              3,
+              4
+            ],
+            "lux3d_prompt": "白色细金属管落地折叠晾衣架，底部带弯管防滑支脚与横杆",
+            "crop_rel": "crops/item_146a145e.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_146a145e.png",
+            "clean_source_rel": "crops/item_146a145e_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_146a145e_ctx.jpg",
+            "clean_rel": "clean/item_146a145e.png",
+            "clean_url": "./data/nest_test_v5/clean/item_146a145e.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8354077,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_146a145e.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_146a145e.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 0.994,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_b590d38c",
+            "type": "wardrobe",
+            "label": "三门原木衣柜",
+            "color_hex": "#A97D51",
+            "appearance": "原木色贴皮三门立式衣柜，下方带三抽屉及右侧开放格",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "north",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.38,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -0.391,
+            "zm": -2.275,
+            "elevation_m": 0.0,
+            "pos_x": -0.1103,
+            "pos_z": -0.4317,
+            "size_m": [
+              1.35,
+              2.05,
+              0.58
+            ],
+            "world_box_m": [
+              1.35,
+              2.05,
+              0.58
+            ],
+            "rot_deg": 0,
+            "facing": "south",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.224,
+              2.2,
+              0.612
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 2,
+            "seen_in_photos": [
+              5,
+              7
+            ],
+            "lux3d_prompt": "原木色贴皮三门立式衣柜，下方带三抽屉及右侧开放格",
+            "crop_rel": "crops/item_b590d38c.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_b590d38c.png",
+            "clean_source_rel": "crops/item_937cc8c5_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_937cc8c5_ctx.jpg",
+            "clean_rel": "clean/item_b590d38c.png",
+            "clean_url": "./data/nest_test_v5/clean/item_b590d38c.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332614,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_b590d38c.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_b590d38c.glb"
+          },
+          {
+            "id": "item_749794c8",
+            "type": "cabinet",
+            "label": "阳台通顶木柜",
+            "color_hex": "#8D602B",
+            "appearance": "深暖黄色实木贴皮通顶四门阳台储物柜，底部配双层抽屉",
+            "zone": "balcony",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 4,
+            "along_wall_offset": 0.85,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.405,
+            "zm": 1.99,
+            "elevation_m": 0.0,
+            "pos_x": -0.3958,
+            "pos_z": 0.3776,
+            "size_m": [
+              1.15,
+              2.35,
+              0.6
+            ],
+            "world_box_m": [
+              0.6,
+              2.35,
+              1.15
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              2.0,
+              2.418,
+              0.709
+            ],
+            "is_glass": false,
+            "confidence": 0.94,
+            "views": 2,
+            "seen_in_photos": [
+              2,
+              3
+            ],
+            "lux3d_prompt": "深暖黄色实木贴皮通顶四门阳台储物柜，底部配双层抽屉",
+            "crop_rel": "crops/item_749794c8.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_749794c8.png",
+            "clean_source_rel": "crops/item_749794c8_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_749794c8_ctx.jpg",
+            "clean_rel": "clean/item_749794c8.png",
+            "clean_url": "./data/nest_test_v5/clean/item_749794c8.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8354256,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_749794c8.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_749794c8.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_749794c8_1",
+                "name": "折叠脏衣收纳篮",
+                "category": "laundry",
+                "location": "下层敞开格",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_749794c8_2",
+                "name": "备用抽纸整箱装",
+                "category": "tissue",
+                "location": "中层隔板",
+                "status": "充足",
+                "qty": "1提",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_974d2188",
+            "type": "side_table",
+            "label": "升降移动边桌",
+            "color_hex": "#4E3E36",
+            "appearance": "深胡桃木纹矩形桌面配黑色金属单柱工字形底座可升降边桌",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "west",
+            "wall_slot_order": 3,
+            "along_wall_offset": 0.44,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.505,
+            "zm": 0.877,
+            "elevation_m": 0.0,
+            "pos_x": -0.4239,
+            "pos_z": 0.1665,
+            "size_m": [
+              0.6,
+              0.72,
+              0.4
+            ],
+            "world_box_m": [
+              0.4,
+              0.72,
+              0.6
+            ],
+            "rot_deg": 90,
+            "facing": "east",
+            "facing_target": "",
+            "glb_fix_deg": 270.0,
+            "glb_aligned_size": [
+              1.023,
+              1.077,
+              0.8
+            ],
+            "is_glass": false,
+            "confidence": 0.92,
+            "views": 2,
+            "seen_in_photos": [
+              0,
+              1
+            ],
+            "lux3d_prompt": "深胡桃木纹矩形桌面配黑色金属单柱工字形底座可升降边桌",
+            "crop_rel": "crops/item_974d2188.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_974d2188.png",
+            "clean_source_rel": "crops/item_974d2188_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_974d2188_ctx.jpg",
+            "clean_rel": "clean/item_974d2188.png",
+            "clean_url": "./data/nest_test_v5/clean/item_974d2188.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8354278,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_974d2188.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_974d2188.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true,
+            "surface_items": [
+              {
+                "id": "si_item_974d2188_1",
+                "name": "笔记本电脑",
+                "category": "appliance",
+                "location": "桌面左侧",
+                "status": "常用",
+                "qty": "1台",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_974d2188_2",
+                "name": "白色陶瓷碗",
+                "category": "cookware",
+                "location": "桌面右后方",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_974d2188_3",
+                "name": "黑色鼠标",
+                "category": "appliance",
+                "location": "桌面右侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 1
+              }
+            ]
+          },
+          {
+            "id": "item_9d1cf18c",
+            "type": "washer",
+            "label": "滚筒洗衣机",
+            "color_hex": "#B7AA98",
+            "appearance": "香槟金色金属机身前开门滚筒洗衣机，配黑色视窗与旋钮面板",
+            "zone": "balcony",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 4,
+            "along_wall_offset": 0.72,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.415,
+            "zm": 2.194,
+            "elevation_m": 0.0,
+            "pos_x": 0.3986,
+            "pos_z": 0.4163,
+            "size_m": [
+              0.6,
+              0.85,
+              0.58
+            ],
+            "world_box_m": [
+              0.58,
+              0.85,
+              0.6
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.117,
+              1.272,
+              0.85
+            ],
+            "is_glass": false,
+            "confidence": 0.97,
+            "views": 1,
+            "seen_in_photos": [
+              4
+            ],
+            "lux3d_prompt": "香槟金色金属机身前开门滚筒洗衣机，配黑色视窗与旋钮面板",
+            "crop_rel": "crops/item_9d1cf18c.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_9d1cf18c.png",
+            "clean_source_rel": "crops/item_6192bcda_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_6192bcda_ctx.jpg",
+            "clean_rel": "clean/item_9d1cf18c.png",
+            "clean_url": "./data/nest_test_v5/clean/item_9d1cf18c.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332953,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_9d1cf18c.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_9d1cf18c.glb",
+            "surface_items": [
+              {
+                "id": "si_item_9d1cf18c_1",
+                "name": "衣物柔顺剂",
+                "category": "laundry",
+                "location": "机身顶部左侧",
+                "status": "充足",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 4
+              },
+              {
+                "id": "si_item_9d1cf18c_2",
+                "name": "塑料收纳盆",
+                "category": "storage",
+                "location": "机身顶部右侧",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 4
+              },
+              {
+                "id": "si_item_9d1cf18c_3",
+                "name": "透明量杯",
+                "category": "laundry",
+                "location": "机身顶部左前",
+                "status": "常用",
+                "qty": "1个",
+                "source": "实景视觉登记",
+                "photo_idx": 4
+              },
+              {
+                "id": "si_item_9d1cf18c_4",
+                "name": "山茶花衣物柔顺剂",
+                "category": "laundry",
+                "location": "洗衣机上方台面",
+                "status": "余量提醒",
+                "qty": "1瓶",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              },
+              {
+                "id": "si_item_9d1cf18c_5",
+                "name": "浓缩留香珠",
+                "category": "laundry",
+                "location": "台面收纳筐",
+                "status": "充足",
+                "qty": "1盒",
+                "source": "实景视觉登记",
+                "photo_idx": 0
+              }
+            ]
+          },
+          {
+            "id": "item_34220643",
+            "type": "tv",
+            "label": "壁挂液晶电视",
+            "color_hex": "#1E2022",
+            "appearance": "黑色超窄边框大尺寸平板液晶电视，挂于白色东墙中部",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "east",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.37,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.665,
+            "zm": -1.367,
+            "elevation_m": 1.15,
+            "pos_x": 0.469,
+            "pos_z": -0.2593,
+            "size_m": [
+              1.15,
+              0.68,
+              0.08
+            ],
+            "world_box_m": [
+              0.08,
+              0.68,
+              1.15
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "双人床",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.23,
+              0.761,
+              0.091
+            ],
+            "is_glass": false,
+            "confidence": 0.96,
+            "views": 1,
+            "seen_in_photos": [
+              6
+            ],
+            "lux3d_prompt": "黑色超窄边框大尺寸平板液晶电视，挂于白色东墙中部",
+            "crop_rel": "crops/item_34220643.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_34220643.png",
+            "clean_source_rel": "crops/item_60c7655d_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_60c7655d_ctx.jpg",
+            "clean_rel": "clean/item_34220643.png",
+            "clean_url": "./data/nest_test_v5/clean/item_34220643.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8332778,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_34220643.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_34220643.glb"
+          },
+          {
+            "id": "item_8f8e74ec",
+            "type": "other",
+            "label": "壁挂空调",
+            "color_hex": "#EDEAE0",
+            "appearance": "米白色长条形分体挂壁式空调室内机，高位贴东墙安装",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "wall_high",
+            "wall_anchor": "east",
+            "wall_slot_order": 2,
+            "along_wall_offset": 0.16,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.595,
+            "zm": -0.272,
+            "elevation_m": 1.9,
+            "pos_x": 0.4493,
+            "pos_z": -0.0515,
+            "size_m": [
+              0.88,
+              0.3,
+              0.22
+            ],
+            "world_box_m": [
+              0.22,
+              0.3,
+              0.88
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.9,
+              0.348,
+              0.503
+            ],
+            "is_glass": false,
+            "confidence": 0.95,
+            "views": 1,
+            "seen_in_photos": [
+              6
+            ],
+            "lux3d_prompt": "米白色长条形分体挂壁式空调室内机，高位贴东墙安装",
+            "crop_rel": "crops/item_8f8e74ec.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_8f8e74ec.png",
+            "clean_source_rel": "crops/item_8f8e74ec_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_8f8e74ec_ctx.jpg",
+            "clean_rel": "clean/item_8f8e74ec.png",
+            "clean_url": "./data/nest_test_v5/clean/item_8f8e74ec.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8354347,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_8f8e74ec.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_8f8e74ec.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_26674846",
+            "type": "cabinet",
+            "label": "电视下白置物架",
+            "color_hex": "#EAE9E5",
+            "appearance": "白色板式三层矮窄开放格置物架，紧贴东墙置于壁挂电视下方",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 1,
+            "along_wall_offset": -0.37,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.595,
+            "zm": -1.271,
+            "elevation_m": 0.0,
+            "pos_x": 0.4493,
+            "pos_z": -0.2413,
+            "size_m": [
+              0.62,
+              0.75,
+              0.22
+            ],
+            "world_box_m": [
+              0.22,
+              0.75,
+              0.62
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              0.691,
+              0.9,
+              0.192
+            ],
+            "is_glass": false,
+            "confidence": 0.91,
+            "views": 1,
+            "seen_in_photos": [
+              6
+            ],
+            "lux3d_prompt": "白色板式三层矮窄开放格置物架，紧贴东墙置于壁挂电视下方",
+            "crop_rel": "crops/item_26674846.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_26674846.png",
+            "clean_source_rel": "crops/item_d18f336a_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_d18f336a_ctx.jpg",
+            "clean_rel": "clean/item_26674846.png",
+            "clean_url": "./data/nest_test_v5/clean/item_26674846.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8333054,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_26674846.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_26674846.glb"
+          },
+          {
+            "id": "item_d8a0ec9a",
+            "type": "other",
+            "label": "黑色框穿衣镜",
+            "color_hex": "#2A2B2D",
+            "appearance": "黑色极窄边框长方形落地全身镜，微倾靠于东墙窗帘旁",
+            "zone": "main",
+            "placement_mode": "wall",
+            "mount": "floor",
+            "wall_anchor": "east",
+            "wall_slot_order": 3,
+            "along_wall_offset": 0.35,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": 1.665,
+            "zm": -0.112,
+            "elevation_m": 0.0,
+            "pos_x": 0.469,
+            "pos_z": -0.0213,
+            "size_m": [
+              0.42,
+              1.55,
+              0.08
+            ],
+            "world_box_m": [
+              0.08,
+              1.55,
+              0.42
+            ],
+            "rot_deg": 270,
+            "facing": "west",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              1.6,
+              3.771,
+              0.071
+            ],
+            "is_glass": true,
+            "confidence": 0.9,
+            "views": 1,
+            "seen_in_photos": [
+              6
+            ],
+            "lux3d_prompt": "黑色极窄边框长方形落地全身镜，微倾靠于东墙窗帘旁",
+            "crop_rel": "crops/item_d8a0ec9a.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_d8a0ec9a.png",
+            "clean_source_rel": "crops/item_d8a0ec9a_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_d8a0ec9a_ctx.jpg",
+            "clean_rel": "clean/item_d8a0ec9a.png",
+            "clean_url": "./data/nest_test_v5/clean/item_d8a0ec9a.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8356733,
+            "lux_version": "G1",
+            "glb_rel": "models_opt/item_d8a0ec9a.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_d8a0ec9a.glb",
+            "lux_error": null,
+            "clean_meta": {
+              "white_ratio": 1.0,
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            "lux_clean_used": true
+          },
+          {
+            "id": "item_9c80f0b3",
+            "type": "other",
+            "label": "落地衣帽架",
+            "color_hex": "#C8A679",
+            "appearance": "浅原木色细长立柱式衣帽架，顶部带多向斜伸挂钩分支",
+            "zone": "main",
+            "placement_mode": "corner",
+            "mount": "floor",
+            "wall_anchor": "corner_nw",
+            "wall_slot_order": 0,
+            "along_wall_offset": -0.88,
+            "center_z_offset": 0.0,
+            "parent_id": null,
+            "parent_ref": null,
+            "attach_slot": null,
+            "xm": -1.495,
+            "zm": -2.355,
+            "elevation_m": 0.0,
+            "pos_x": -0.4211,
+            "pos_z": -0.4469,
+            "size_m": [
+              0.42,
+              1.72,
+              0.42
+            ],
+            "world_box_m": [
+              0.42,
+              1.72,
+              0.42
+            ],
+            "rot_deg": 0,
+            "facing": "room_center",
+            "facing_target": "",
+            "glb_fix_deg": 0.0,
+            "glb_aligned_size": [
+              6.303,
+              8.957,
+              2.0
+            ],
+            "is_glass": false,
+            "confidence": 0.88,
+            "views": 1,
+            "seen_in_photos": [
+              7
+            ],
+            "lux3d_prompt": "浅原木色细长立柱式衣帽架，顶部带多向斜伸挂钩分支",
+            "crop_rel": "crops/item_9c80f0b3.jpg",
+            "crop_url": "./data/nest_test_v5/clean/item_9c80f0b3.png",
+            "clean_source_rel": "crops/item_1c0189ee_ctx.jpg",
+            "clean_source_url": "./data/nest_test_v5/crops/item_1c0189ee_ctx.jpg",
+            "clean_rel": "clean/item_9c80f0b3.png",
+            "clean_url": "./data/nest_test_v5/clean/item_9c80f0b3.png",
+            "clean_error": null,
+            "lux_status": "succeeded",
+            "lux_task_id": 8331981,
+            "lux_version": "G1-Turbo",
+            "glb_rel": "models_opt/item_9c80f0b3.glb",
+            "glb_url": "./data/nest_test_v5/models_opt/item_9c80f0b3.glb"
+          }
+        ],
+        "_vlm": {
+          "model": "gemini-4-hydrogen-high",
+          "elapsed_s": 56.0
+        },
+        "subzone_split": {
+          "has_connected_balcony": true,
+          "balcony_end": "south",
+          "ratio": 0.25,
+          "divider_kind": "open_arch",
+          "has_curtain": true,
+          "evidence": ""
+        },
+        "photo_orientations": [
+          {
+            "photo_index": 0,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "画面正前方为墨绿色墙面及贴墙书桌，右侧可见床头与床铺（结合图7可知床头靠西墙），左侧为通向南侧阳台的浅蓝灰色落地窗帘",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 1,
+            "front_wall": "west",
+            "left_wall": "south",
+            "right_wall": "north",
+            "back_wall": "east",
+            "anchor_evidence": "画面与第0张基本一致，正前方为墨绿色西墙上的书桌与桌面置物架，左侧为南侧阳台窗帘",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 2,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "正前方为南侧建筑外窗阳台（白瓷砖墙与外窗），右侧可见浅蓝灰色窗帘、书桌边角（西墙）及阳台西侧通顶木柜",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 3,
+            "front_wall": "south",
+            "left_wall": "east",
+            "right_wall": "west",
+            "back_wall": "north",
+            "anchor_evidence": "正对南侧阳台木质垭口及外窗，垭口两侧有浅蓝灰色窗帘，阳台内右侧为西侧木质储物柜",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 4,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "位于阳台口附近朝东南偏东方向拍摄，正前方为靠东墙（厨房南端以南的外墙段）放置的洗衣机及其上方东侧外窗，右侧为南墙白瓷砖墙面、南外窗及晾衣架，最左侧可见北侧垭口木框边缘与窗帘",
+            "confidence": 0.85
+          },
+          {
+            "photo_index": 5,
+            "front_wall": "north",
+            "left_wall": "west",
+            "right_wall": "east",
+            "back_wall": "south",
+            "anchor_evidence": "画面右侧可见北墙偏东侧通往客厅的木质平开房门（把手在左、合页在右，与户型图门扇朝向一致），左侧为靠近西北角的木质衣柜",
+            "confidence": 0.98
+          },
+          {
+            "photo_index": 6,
+            "front_wall": "east",
+            "left_wall": "north",
+            "right_wall": "south",
+            "back_wall": "west",
+            "anchor_evidence": "前景为背靠西墙的床尾，正前方为东侧实墙（壁挂电视与空调），右侧可见通向南侧阳台的浅蓝灰色落地窗帘",
+            "confidence": 0.95
+          },
+          {
+            "photo_index": 7,
+            "front_wall": "north",
+            "left_wall": "west",
+            "right_wall": "east",
+            "back_wall": "south",
+            "anchor_evidence": "正前方为北墙（含中间偏左衣柜及右侧偏东的客厅房门），左侧为墨绿色西墙及靠西墙摆放的床头",
+            "confidence": 0.98
+          }
+        ],
+        "audit": {
+          "notes": [
+            "全屋12件家具均可在实景照片与户型图对应关系中相互印证，无幻觉及重复物体。",
+            "主卧西墙（墨绿色墙面）自北向南依次为落地衣帽架、双人床、白色带架书桌及深色升降移动边桌，与东墙电视、白置物架、空调、穿衣镜形成准确对位。",
+            "北墙偏西侧为三门原木衣柜，偏东侧为通往客厅的平开房门，与户型图完全一致。",
+            "南端约25%区域通过原木门套垭口与浅蓝灰色窗帘半隔断为生活阳台，内设西南角通顶木柜、南窗下落地晾衣架及东墙南端窗下滚筒洗衣机，东墙南端外窗亦与户型图厨房南端退缩位置相符。"
+          ],
+          "pass1_count": 0,
+          "merged_count": 12
+        }
+      },
+      "bbox_1000": [
+        380.6,
+        574.2,
+        535.0,
+        882.5
+      ],
+      "est_width_m": 2.9,
+      "est_depth_m": 4.7,
+      "subzone_split": {
+        "has_connected_balcony": true,
+        "balcony_end": "south",
+        "ratio": 0.25,
+        "divider_kind": "open_arch",
+        "has_curtain": true,
+        "evidence": ""
+      }
+    }
+  ],
+  "built_3d": true,
+  "updated_at": 1795050023,
+  "ai_design_schemes": [
+    {
+      "id": "scheme_living_dining",
+      "room_id": "rm_00e26c38",
+      "room_name": "客厅 · 餐客一体区",
+      "title": "暖奶油原木客餐厅 · 氛围升级方案",
+      "subtitle": "Creamy Warm Wood Living-Dining Makeover",
+      "out_file": "scheme1_living_dining.jpg",
+      "diagnosis": "客厅实测 3.43m × 4.31m。L型沙发与黑胡桃餐桌流线通畅，沙发东侧留白 0.65m、中央茶几区留白 1.40m，适合增设圆弧原木边几、百褶落地阅读灯、低饱和编织地毯与龟背竹绿植来柔和硬朗黑色餐桌轮廓。",
+      "render_rel_path": "design_renders/scheme1_living_dining.jpg",
+      "ref_rel_path": "docs/shots/clean_rm_00e26c38.jpg"
+    },
+    {
+      "id": "scheme_master_balcony",
+      "room_id": "rm_dce027de",
+      "room_name": "卧室B · 主卧与南向阳台",
+      "title": "阳光绿植治愈主卧 · 休闲角方案",
+      "subtitle": "Sunlit Healing Bedroom & Balcony Lounge",
+      "out_file": "scheme2_master_balcony.jpg",
+      "diagnosis": "主卧与阳台连通区实测 3.55m × 5.27m。书桌、双人床与三门原木衣柜贴墙紧凑排布，床尾及阳台衔接处保留 1.10m × 1.35m 充裕阳光活动区，可增设藤编休闲椅、暖光落地灯与错落观叶绿植角。",
+      "render_rel_path": "design_renders/scheme2_master_balcony.jpg",
+      "ref_rel_path": "docs/shots/clean_rm_dce027de.jpg"
+    },
+    {
+      "id": "scheme_study_nook",
+      "room_id": "rm_b00006df",
+      "room_name": "卧室A · 灵感次卧书房",
+      "title": "极简原木高效书房 · 灵感工位方案",
+      "subtitle": "Minimalist Warm Wood Study Nook",
+      "out_file": "scheme3_study_nook.jpg",
+      "diagnosis": "卧室A实测 2.84m × 3.52m。西侧浅灰双人床与白色小圆桌已就位，床尾与北窗下保留 1.20m × 0.85m 采光空位，适合引入窄版原木洞洞板书桌、人体工学暖灰座椅与磁吸氛围灯条。",
+      "render_rel_path": "design_renders/scheme3_study_nook.jpg",
+      "ref_rel_path": "docs/shots/clean_rm_b00006df.jpg"
+    }
+  ],
+  "taobao_mcp_catalog": {
+    "items": [
+      {
+        "id": "tb_side_table_oak",
+        "scheme_id": "scheme_living_dining",
+        "room_id": "rm_00e26c38",
+        "room_name": "客厅",
+        "title": "北美白橡木圆弧边几 · 小户型客厅角几",
+        "shop": "木邻官方旗舰店",
+        "style_tag": "暖奶油原木",
+        "price": 168,
+        "dims_cm": "Ø45 × 52 cm",
+        "fit_badge": "Ø45×52cm · 完美适配沙发东侧 0.65m 空位",
+        "keyword": "白橡木小圆边几 45cm 客厅沙发角几",
+        "accent_color": "#d5a776",
+        "spawn_spec": {
+          "kind": "round_side_table",
+          "room_id": "rm_00e26c38",
+          "label": "橡木圆弧边几 (试摆)",
+          "pos_x": 0.45,
+          "pos_z": 0.62,
+          "size_m": [
+            0.46,
+            0.52,
+            0.46
+          ],
+          "color_hex": "#d5a776"
+        }
+      },
+      {
+        "id": "tb_floor_lamp_pleated",
+        "scheme_id": "scheme_living_dining",
+        "room_id": "rm_00e26c38",
+        "room_name": "客厅",
+        "title": "中古暖光百褶落地阅读灯 · 黄铜细杆",
+        "shop": "光影居灯饰工作室",
+        "style_tag": "氛围暖光",
+        "price": 239,
+        "dims_cm": "Ø36 × 158 cm",
+        "fit_badge": "Ø36×158cm · 贴合沙发拐角 0.50m 照明盲区",
+        "keyword": "中古百褶落地灯 暖光 客厅沙发阅读灯",
+        "accent_color": "#f6d799",
+        "spawn_spec": {
+          "kind": "floor_lamp",
+          "room_id": "rm_00e26c38",
+          "label": "百褶落地灯 (试摆)",
+          "pos_x": -0.95,
+          "pos_z": 1.35,
+          "size_m": [
+            0.36,
+            1.58,
+            0.36
+          ],
+          "color_hex": "#f6d799"
+        }
+      },
+      {
+        "id": "tb_woven_rug_cream",
+        "scheme_id": "scheme_living_dining",
+        "room_id": "rm_00e26c38",
+        "room_name": "客厅",
+        "title": "奶霜格纹羊毛混纺短绒地毯 · 抗污易打理",
+        "shop": "织物研究所旗舰店",
+        "style_tag": "柔软肌理",
+        "price": 298,
+        "dims_cm": "140 × 200 cm",
+        "fit_badge": "140×200cm · 居中匹配沙发与餐桌间 2.1m 动线",
+        "keyword": "奶油风羊毛短绒地毯 140x200 客厅",
+        "accent_color": "#efe5d5",
+        "spawn_spec": {
+          "kind": "rug",
+          "room_id": "rm_00e26c38",
+          "label": "奶霜短绒地毯 (试摆)",
+          "pos_x": -0.35,
+          "pos_z": 0.45,
+          "size_m": [
+            1.45,
+            0.025,
+            1.85
+          ],
+          "color_hex": "#efe5d5"
+        }
+      },
+      {
+        "id": "tb_fiddle_plant",
+        "scheme_id": "scheme_master_balcony",
+        "room_id": "rm_dce027de",
+        "room_name": "卧室B · 阳台区",
+        "title": "大叶琴叶榕观叶绿植 · 配透气磨砂白陶盆",
+        "shop": "植愈星球园艺",
+        "style_tag": "阳光治愈",
+        "price": 129,
+        "dims_cm": "Ø38 × 125 cm",
+        "fit_badge": "Ø38×125cm · 完美嵌合阳台采光角 0.55m 空位",
+        "keyword": "大叶琴叶榕盆栽 白陶盆 室内客厅绿植",
+        "accent_color": "#588b61",
+        "spawn_spec": {
+          "kind": "potted_plant",
+          "room_id": "rm_dce027de",
+          "label": "琴叶榕绿植 (试摆)",
+          "pos_x": -1.28,
+          "pos_z": 0.25,
+          "size_m": [
+            0.4,
+            1.25,
+            0.4
+          ],
+          "color_hex": "#588b61"
+        }
+      },
+      {
+        "id": "tb_rattan_lounge_chair",
+        "scheme_id": "scheme_master_balcony",
+        "room_id": "rm_dce027de",
+        "room_name": "卧室B · 阳台休闲区",
+        "title": "北欧白蜡木藤编单人休闲椅 · 含亚麻坐垫",
+        "shop": "素居家居自营",
+        "style_tag": "自然松弛",
+        "price": 368,
+        "dims_cm": "62 × 66 × 76 cm",
+        "fit_badge": "62×66cm · 适配主卧阳台衔接处 1.10m 留白区",
+        "keyword": "白蜡木藤编休闲椅 阳台单人椅",
+        "accent_color": "#c99a64",
+        "spawn_spec": {
+          "kind": "lounge_chair",
+          "room_id": "rm_dce027de",
+          "label": "藤编休闲椅 (试摆)",
+          "pos_x": -0.78,
+          "pos_z": 1.35,
+          "size_m": [
+            0.62,
+            0.76,
+            0.66
+          ],
+          "color_hex": "#c99a64"
+        }
+      },
+      {
+        "id": "tb_study_desk_set",
+        "scheme_id": "scheme_study_nook",
+        "room_id": "rm_b00006df",
+        "room_name": "卧室A · 窗边书房区",
+        "title": "极简浅橡木窄版书桌 · 含洞洞板桌面收纳架",
+        "shop": "原木纪官方店",
+        "style_tag": "高效收纳",
+        "price": 329,
+        "dims_cm": "100 × 52 × 75 cm",
+        "fit_badge": "100×52cm · 精准适配卧室A南窗前 1.20m 空位",
+        "keyword": "窄版实木书桌 100x50 卧室小户型",
+        "accent_color": "#d8b98e",
+        "spawn_spec": {
+          "kind": "study_desk",
+          "room_id": "rm_b00006df",
+          "label": "浅橡木窄书桌 (试摆)",
+          "pos_x": 0.48,
+          "pos_z": -0.95,
+          "size_m": [
+            0.96,
+            0.75,
+            0.5
+          ],
+          "color_hex": "#d8b98e"
+        }
+      }
+    ],
+    "mcp_trace": [
+      {
+        "step": 1,
+        "tool": "mcp__pocketnest__get_room_free_zones",
+        "request": {
+          "project_id": "nest_test_v5",
+          "room_id": "rm_00e26c38",
+          "min_clearance_m": 0.45
+        },
+        "response": {
+          "room": "客厅 (3.43m × 4.31m)",
+          "style_profile": "原木+浅灰布艺+深色餐桌",
+          "free_zones": [
+            {
+              "zone": "沙发东侧留白",
+              "width_m": 0.65,
+              "depth_m": 0.68,
+              "recommended": "side_table"
+            },
+            {
+              "zone": "沙发拐角照明位",
+              "width_m": 0.5,
+              "depth_m": 0.5,
+              "recommended": "floor_lamp"
+            },
+            {
+              "zone": "沙发-餐桌中庭",
+              "width_m": 1.45,
+              "depth_m": 1.95,
+              "recommended": "rug"
+            }
+          ]
+        }
+      },
+      {
+        "step": 2,
+        "tool": "mcp__taobao__search_home_items",
+        "request": {
+          "query": "白橡木圆弧边几 小户型",
+          "max_width_cm": 65,
+          "max_depth_cm": 65,
+          "style": "奶油原木",
+          "price_max": 300
+        },
+        "response": {
+          "matched_count": 3,
+          "top_pick": {
+            "item_id": "tb_side_table_oak",
+            "title": "北美白橡木圆弧边几 · 小户型客厅角几",
+            "dims_cm": [
+              45,
+              52,
+              45
+            ],
+            "price_cny": 168,
+            "fit_score": 0.98
+          }
+        }
+      },
+      {
+        "step": 3,
+        "tool": "mcp__pocketnest__check_spatial_fit",
+        "request": {
+          "project_id": "nest_test_v5",
+          "room_id": "rm_00e26c38",
+          "candidate_box_m": [
+            0.46,
+            0.52,
+            0.46
+          ],
+          "target_pos_m": [
+            0.45,
+            0.62
+          ]
+        },
+        "response": {
+          "collision": false,
+          "door_swing_clear": true,
+          "walkway_remaining_m": 0.88,
+          "verdict": "FIT_APPROVED · 可安全一键 3D 试摆入窝"
+        }
+      }
+    ]
+  }
+}
