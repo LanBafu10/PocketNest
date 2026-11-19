@@ -3044,18 +3044,14 @@ function buildOneRoomGroup(room, isSingleFocus, houseBounds = null, roomOffX = 0
 
   g.add(boxMesh(w, 0.08, d, floorCol, 0, 0.04, 0));
 
-  const tallH = 2.38, midPartH = 0.62, lowCutH = 0.38, wt = 0.09;
-  let northH = tallH, westH = tallH, eastH = midPartH, southH = midPartH;
-  if (camOrientMode === 'v1') {
-    westH = tallH;
-    northH = (!isSingleFocus && houseBounds && (room.rel_z - d / 2 <= houseBounds.minZ + 0.15)) ? tallH : midPartH;
-    eastH = (!isSingleFocus && houseBounds && (room.rel_x + w / 2 >= houseBounds.maxX - 0.15)) ? lowCutH : midPartH;
-    southH = (!isSingleFocus && houseBounds && (room.rel_z + d / 2 >= houseBounds.maxZ - 0.15)) ? lowCutH : midPartH;
-  } else {
+  const tallH = 2.38, midPartH = 0.55, wt = 0.09;
+  // 全屋鸟瞰模式下，所有外墙与室内隔断墙统一拉高至 2.38m，避免高矮断层；仅单间聚焦模式保留 L 型剖面方便平视
+  let northH = tallH, westH = tallH, eastH = tallH, southH = tallH;
+  if (isSingleFocus) {
     northH = tallH;
     westH = tallH;
-    eastH = (!isSingleFocus && houseBounds && (room.rel_x + w / 2 >= houseBounds.maxX - 0.15)) ? lowCutH : midPartH;
-    southH = (!isSingleFocus && houseBounds && (room.rel_z + d / 2 >= houseBounds.maxZ - 0.15)) ? lowCutH : midPartH;
+    eastH = midPartH;
+    southH = midPartH;
   }
 
   let ops = Array.isArray(room.openings) ? [...room.openings] : [];
