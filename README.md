@@ -6,7 +6,7 @@
 [![Hackathon](https://img.shields.io/badge/Aholo-Lux3D_Hackathon-ff6b35)](https://lanbafu10.github.io/PocketNest/)
 [![GLB Success](https://img.shields.io/badge/GLB_Success-123%2F123_(100%25)-1976d2)](#实测指标与跨户型零样本泛化)
 
-PocketNest（口袋小窝）面向普通居家用户与空间 AI 应用场景，解决传统 3D 家居建模门槛高、文生 3D 与真实物品脱节、以及 AI 助手缺乏家庭空间记忆的问题。用户只需上传 **1 张任意户型图 + 各房间实拍照片**，系统即可全自动完成户型拆解、家具单品洗白、**Aholo Lux3D** 高保真 `.glb` 生成、四视图正面视觉定标与全屋三维组装；同时内置 **空间小物电子显示板**、**AI 软装改造 × 淘宝 MCP 真实尺寸 3D 试摆** 与一键导出 **MCP (Model Context Protocol)** 能力。
+PocketNest（口袋小窝）面向普通居家用户与空间 AI 应用场景，解决传统 3D 家居建模门槛高、文生 3D 与真实物品脱节、以及 AI 助手缺乏家庭空间记忆的问题。用户只需上传 **1 张任意户型图 + 各房间实拍照片**，系统即可全自动完成户型拆解、家具单品洗白、**Aholo Lux3D** 高保真 `.glb` 生成、四视图正面视觉定标与全屋三维组装；同时内置 **空间小物电子显示板**、**AI 软装改造 × 电商 MCP 3D 试摆原型** 并预留标准 **MCP (Model Context Protocol)** 空间记忆接口。
 
 👉 **免登录在线交互体验**：[`https://lanbafu10.github.io/PocketNest/`](https://lanbafu10.github.io/PocketNest/)
 
@@ -32,9 +32,9 @@ PocketNest（口袋小窝）面向普通居家用户与空间 AI 应用场景，
 - **实景自动登记小物件与「空间小物电子显示板」 (`enrich_items_and_design.py`)**
   - 从房间实景照片中自动提取并绑定日常小物到对应 3D 家具上（67㎡ 基准小窝自动登记 **59 件**，4 套实测累计 **126 件**）。
   - 在 3D 沙盘中点击任意家具（如双开门冰箱、餐桌、书桌）即可弹出 **空间小物电子显示板 HUD**，查看存放位置、余量状态与原图溯源；支持顶部输入关键字秒搜全屋定位。
-- **AI 软装改造设计图 × 淘宝 MCP 智能家具选品与「3D 试摆入窝」**
+- **AI 软装改造设计图 × 电商 MCP 选品联动原型与「3D 试摆入窝」**
   - 读取当前房间真实沙盘几何（如客厅 `3.43m × 4.31m`、沙发东侧 `0.65m` 空位），生成同几何比例 AI 软装设计方案；
-  - 联动 **淘宝 MCP (`taobao-mcp`)** 按真实长宽高尺寸匹配在售家具（如 `Ø45×52 cm 北美白橡木圆弧边几`），点击 **「3D 试摆入窝」** 直接落位三维沙盘预览，支持一键恢复实景原貌。
+  - 内置 **电商 MCP (`taobao-mcp`) 选品联动原型**（Demo 当前使用模拟候选单品目录与标准 MCP 调用链示意，已实现真实空位尺寸校验，预留标准接口后续可无痛对接企业级淘宝开放平台 / 电商实时 MCP），点击 **「3D 试摆入窝」** 直接按真实比例落位三维沙盘预览，支持一键恢复实景原貌。
 
 ---
 
@@ -107,16 +107,3 @@ uvicorn server:app --host 127.0.0.1 --port 18792
 ## 📄 开源协议
 
 MIT License
-
-
----
-
-## 🖼️ 实测效果与核心亮点预览
-
-| V1 手搓 Demo vs V2 任意户型全自动 3D 孪生 | Aholo 多模态去杂 + Lux3D 四向自定标流水线 |
-| :---: | :---: |
-| ![V1 vs V2](reports/figures/fig1_v1_vs_v2.jpg) | ![Aholo Pipeline](reports/figures/fig2_aholo_pipeline_4step.jpg) |
-
-| 空间物件电子显示板 + AI 软装设计 × 淘宝 MCP 试摆 | 3 套外部真实住宅跨户型零微调泛化测试 |
-| :---: | :---: |
-| ![Smart Board & Taobao MCP](reports/figures/fig4_smart_board_and_taobao_mcp.jpg) | ![External Generalization](reports/figures/fig5_external_generalization.jpg) |
